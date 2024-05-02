@@ -1,33 +1,33 @@
 {
   "schemaVersion": 1,
-  "id": "${mod_id}",
-  "version": "${version}",
+  "id": "anvilcraft_fooding",
+  "version": "0.2.0",
 
-  "name": "${mod_name}",
-  "description": "${mod_description}",
-  "authors": [],
+  "name": "AnvilCraft-Fooding",
+  "description": "A mod of extra foods and a system of food for AnvilCraft",
+  "authors": ["萌虾"],
   "contact": {},
 
-  "license": "${mod_license}",
+  "license": "LGPL-3.0",
   "icon": "assets/anvilcraft_addon_example/textures/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "dev.anvilcraft.addon.fabric.ExampleModFabric"
+      "dev.anvilcraft.fooding.fabric.AnvilCraftFoodingFabric"
     ],
     "fabric-datagen": [
-      "dev.anvilcraft.addon.data.fabric.ExampleModDatagen"
+      "dev.anvilcraft.fooding.data.fabric.AnvilCraftFoodingDatagen"
     ]
   },
   "mixins": [
-    "anvilcraft_addon_example.mixins.json",
-    "anvilcraft_addon_example-common.mixins.json"
+    "anvilcraft_fooding-fabric.mixins.json",
+    "anvilcraft_fooding-common.mixins.json"
   ],
   "depends": {
-    "fabricloader": ">=0.14.7",
+    "fabricloader": ">=0.15.7",
     "fabric-api": "*",
-    "minecraft": "${minecraft_version}",
-    "anvilcraft": ">=1.1"
+    "minecraft": "1.20.1",
+    "anvilcraft": ">=1.3.2-build.460"
   }
 }

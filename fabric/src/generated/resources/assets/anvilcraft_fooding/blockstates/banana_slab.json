@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "anvilcraft_fooding:block/banana_slab"
+    },
+    "type=double": {
+      "model": "anvilcraft_fooding:block/banana_planks"
+    },
+    "type=top": {
+      "model": "anvilcraft_fooding:block/banana_slab_top"
+    }
+  }
+}

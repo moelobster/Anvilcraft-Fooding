@@ -1,0 +1,63 @@
+{
+  "type": "anvilcraft:anvil_processing",
+  "icon": {
+    "item": "minecraft:dirt"
+  },
+  "outcomes": [
+    {
+      "type": "spawn_item",
+      "chance": 0.01,
+      "offset": [
+        0.0,
+        -1.0,
+        0.0
+      ],
+      "result": {
+        "item": "anvilcraft_fooding:eggplant"
+      }
+    },
+    {
+      "type": "spawn_item",
+      "chance": 0.01,
+      "offset": [
+        0.0,
+        -1.0,
+        0.0
+      ],
+      "result": {
+        "item": "anvilcraft_fooding:gensing"
+      }
+    }
+  ],
+  "predicates": [
+    {
+      "type": "has_block",
+      "match_block": {
+        "blocks": [
+          "minecraft:iron_trapdoor"
+        ]
+      },
+      "offset": [
+        0.0,
+        -1.0,
+        0.0
+      ]
+    },
+    {
+      "type": "has_item_ingredient",
+      "match_item": {
+        "count": {
+          "min": 1
+        },
+        "items": [
+          "minecraft:dirt"
+        ]
+      },
+      "offset": [
+        0.0,
+        -1.0,
+        0.0
+      ]
+    }
+  ]
+}

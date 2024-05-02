@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "anvilcraft_fooding:block/carambola_planks",
+    "side": "anvilcraft_fooding:block/carambola_planks",
+    "top": "anvilcraft_fooding:block/carambola_planks"
+  }
+}

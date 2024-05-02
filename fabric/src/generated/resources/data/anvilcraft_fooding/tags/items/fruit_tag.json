@@ -1,0 +1,19 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:glow_berries",
+    "minecraft:sweet_berries",
+    "minecraft:melon_slice",
+    "minecraft:apple",
+    "anvilcraft_fooding:pear",
+    "anvilcraft_fooding:banana",
+    "anvilcraft_fooding:blueberry",
+    "anvilcraft_fooding:strawberry",
+    "anvilcraft_fooding:peach",
+    "anvilcraft_fooding:carambola",
+    "anvilcraft_fooding:cherry",
+    "anvilcraft_fooding:coconut",
+    "anvilcraft_fooding:grape",
+    "anvilcraft_fooding:lemon"
+  ]
+}

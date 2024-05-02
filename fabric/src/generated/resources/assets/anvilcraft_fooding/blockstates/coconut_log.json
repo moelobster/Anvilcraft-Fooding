@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "anvilcraft_fooding:block/coconut_log",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "anvilcraft_fooding:block/coconut_log"
+    },
+    "axis=z": {
+      "model": "anvilcraft_fooding:block/coconut_log",
+      "x": 90
+    }
+  }
+}

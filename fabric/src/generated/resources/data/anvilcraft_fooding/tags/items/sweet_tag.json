@@ -1,0 +1,31 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:honey_bottle",
+    "minecraft:pumpkin_pie",
+    "minecraft:glow_berries",
+    "anvilcraft_fooding:glow_berries_jam",
+    "minecraft:sweet_berries",
+    "anvilcraft_fooding:sweet_berries_jam",
+    "minecraft:melon_slice",
+    "anvilcraft_fooding:pear",
+    "anvilcraft_fooding:pear_jam",
+    "minecraft:apple",
+    "anvilcraft_fooding:apple_jam",
+    "anvilcraft_fooding:banana",
+    "anvilcraft_fooding:blueberry",
+    "anvilcraft_fooding:blueberry_jam",
+    "anvilcraft_fooding:strawberry",
+    "anvilcraft_fooding:strawberry_jam",
+    "anvilcraft_fooding:peach",
+    "anvilcraft_fooding:peach_jam",
+    "anvilcraft_fooding:carambola",
+    "anvilcraft_fooding:cherry",
+    "anvilcraft_fooding:carambola_jam",
+    "anvilcraft_fooding:coconut",
+    "anvilcraft_fooding:grape",
+    "anvilcraft_fooding:grape_jam",
+    "anvilcraft_fooding:tomato",
+    "anvilcraft_fooding:tomato_jam"
+  ]
+}

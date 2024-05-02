@@ -1,0 +1,101 @@
+{
+  "type": "anvilcraft:anvil_processing",
+  "icon": {
+    "item": "minecraft:wheat"
+  },
+  "outcomes": [
+    {
+      "type": "spawn_item",
+      "chance": 0.05,
+      "offset": [
+        0.0,
+        -1.0,
+        0.0
+      ],
+      "result": {
+        "item": "anvilcraft_fooding:rice"
+      }
+    },{
+      "type": "spawn_item",
+      "chance": 0.05,
+      "offset": [
+        0.0,
+        -1.0,
+        0.0
+      ],
+      "result": {
+        "item": "anvilcraft_fooding:corn"
+      }
+    },{
+      "type": "spawn_item",
+      "chance": 0.05,
+      "offset": [
+        0.0,
+        -1.0,
+        0.0
+      ],
+      "result": {
+        "item": "anvilcraft_fooding:millet"
+      }
+    },{
+      "type": "spawn_item",
+      "chance": 0.05,
+      "offset": [
+        0.0,
+        -1.0,
+        0.0
+      ],
+      "result": {
+        "item": "anvilcraft_fooding:sorghum"
+      }
+    }
+  ],
+  "predicates": [
+    {
+      "type": "has_block",
+      "match_block": {
+        "blocks": [
+          "minecraft:water_cauldron"
+        ],
+        "state": {
+          "level": "2"
+        }
+      },
+      "offset": [
+        0.0,
+        -1.0,
+        0.0
+      ]
+
+    },
+    {
+      "type": "has_block",
+      "match_block": {
+        "blocks": [
+          "minecraft:magma_block"
+        ]
+      },
+      "offset": [
+        0.0,
+        -2.0,
+        0.0
+      ]
+    },
+    {
+      "type": "has_item_ingredient",
+      "match_item": {
+        "count": {
+          "min": 1
+        },
+        "items": [
+          "minecraft:wheat"
+        ]
+      },
+      "offset": [
+        0.0,
+        -1.0,
+        0.0
+      ]
+    }
+  ]
+}

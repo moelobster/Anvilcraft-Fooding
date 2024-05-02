@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "anvilcraft_fooding:block/peach_slab"
+    },
+    "type=double": {
+      "model": "anvilcraft_fooding:block/peach_planks"
+    },
+    "type=top": {
+      "model": "anvilcraft_fooding:block/peach_slab_top"
+    }
+  }
+}

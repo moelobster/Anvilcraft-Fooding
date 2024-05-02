@@ -1,0 +1,87 @@
+{
+  "type": "anvilcraft:anvil_processing",
+  "icon": {
+    "item": "minecraft:jungle_leaves"
+  },
+  "outcomes": [
+    {
+      "type": "spawn_item",
+      "chance": 0.01,
+      "offset": [
+        0.0,
+        -1.0,
+        0.0
+      ],
+      "result": {
+        "item": "anvilcraft_fooding:banana"
+      }
+    },
+    {
+      "type": "spawn_item",
+      "chance": 0.01,
+      "offset": [
+        0.0,
+        -1.0,
+        0.0
+      ],
+      "result": {
+        "item": "anvilcraft_fooding:walnut"
+      }
+    },
+    {
+      "type": "spawn_item",
+      "chance": 0.01,
+      "offset": [
+        0.0,
+        -1.0,
+        0.0
+      ],
+      "result": {
+        "item": "anvilcraft_fooding:coconut"
+      }
+    },
+    {
+      "type": "spawn_item",
+      "chance": 0.01,
+      "offset": [
+        0.0,
+        -1.0,
+        0.0
+      ],
+      "result": {
+        "item": "anvilcraft_fooding:carambola"
+      }
+    }
+  ],
+  "predicates": [
+    {
+      "type": "has_block",
+      "match_block": {
+        "blocks": [
+          "minecraft:iron_trapdoor"
+        ]
+      },
+      "offset": [
+        0.0,
+        -1.0,
+        0.0
+      ]
+    },
+    {
+      "type": "has_item_ingredient",
+      "match_item": {
+        "count": {
+          "min": 1
+        },
+        "items": [
+          "minecraft:jungle_leaves"
+        ]
+      },
+      "offset": [
+        0.0,
+        -1.0,
+        0.0
+      ]
+    }
+  ]
+}

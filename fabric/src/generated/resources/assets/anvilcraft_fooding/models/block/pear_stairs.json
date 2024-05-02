@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/stairs",
+  "textures": {
+    "bottom": "anvilcraft_fooding:block/pear_planks",
+    "side": "anvilcraft_fooding:block/pear_planks",
+    "top": "anvilcraft_fooding:block/pear_planks"
+  }
+}

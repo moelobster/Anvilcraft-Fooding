@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/door_top_left_open",
+  "textures": {
+    "bottom": "anvilcraft_fooding:block/banana_door_bottom",
+    "top": "anvilcraft_fooding:block/banana_door_top"
+  }
+}

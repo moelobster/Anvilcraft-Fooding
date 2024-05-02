@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/inner_stairs",
+  "textures": {
+    "bottom": "anvilcraft_fooding:block/walnut_planks",
+    "side": "anvilcraft_fooding:block/walnut_planks",
+    "top": "anvilcraft_fooding:block/walnut_planks"
+  }
+}

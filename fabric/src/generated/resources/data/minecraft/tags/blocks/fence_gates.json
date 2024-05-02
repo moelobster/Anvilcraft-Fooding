@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "anvilcraft_fooding:apple_fence_gate",
+    "anvilcraft_fooding:pear_fence_gate",
+    "anvilcraft_fooding:lemon_fence_gate",
+    "anvilcraft_fooding:walnut_fence_gate",
+    "anvilcraft_fooding:banana_fence_gate",
+    "anvilcraft_fooding:peach_fence_gate",
+    "anvilcraft_fooding:coconut_fence_gate",
+    "anvilcraft_fooding:carambola_fence_gate",
+    "anvilcraft_fooding:toon_fence_gate"
+  ]
+}

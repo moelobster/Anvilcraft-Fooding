@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/door_top_right",
+  "textures": {
+    "bottom": "anvilcraft_fooding:block/toon_door_bottom",
+    "top": "anvilcraft_fooding:block/toon_door_top"
+  }
+}

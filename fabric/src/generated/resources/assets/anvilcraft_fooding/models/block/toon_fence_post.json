@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/fence_post",
+  "textures": {
+    "texture": "anvilcraft_fooding:block/toon_planks"
+  }
+}

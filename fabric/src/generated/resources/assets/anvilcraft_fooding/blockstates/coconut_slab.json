@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "anvilcraft_fooding:block/coconut_slab"
+    },
+    "type=double": {
+      "model": "anvilcraft_fooding:block/coconut_planks"
+    },
+    "type=top": {
+      "model": "anvilcraft_fooding:block/coconut_slab_top"
+    }
+  }
+}

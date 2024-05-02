@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "anvilcraft_fooding:block/peach_wood",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "anvilcraft_fooding:block/peach_wood"
+    },
+    "axis=z": {
+      "model": "anvilcraft_fooding:block/peach_wood",
+      "x": 90
+    }
+  }
+}

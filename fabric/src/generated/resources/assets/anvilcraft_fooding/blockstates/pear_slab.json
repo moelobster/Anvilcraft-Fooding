@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "anvilcraft_fooding:block/pear_slab"
+    },
+    "type=double": {
+      "model": "anvilcraft_fooding:block/pear_planks"
+    },
+    "type=top": {
+      "model": "anvilcraft_fooding:block/pear_slab_top"
+    }
+  }
+}

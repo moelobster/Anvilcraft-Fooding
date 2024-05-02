@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab_top",
+  "textures": {
+    "bottom": "anvilcraft_fooding:block/lemon_planks",
+    "side": "anvilcraft_fooding:block/lemon_planks",
+    "top": "anvilcraft_fooding:block/lemon_planks"
+  }
+}

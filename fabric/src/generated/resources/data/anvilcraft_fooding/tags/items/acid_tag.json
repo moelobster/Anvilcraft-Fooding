@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "anvilcraft_fooding:tomato",
+    "anvilcraft_fooding:tomato_jam",
+    "anvilcraft_fooding:grape",
+    "anvilcraft_fooding:grape_jam",
+    "anvilcraft_fooding:lemon",
+    "anvilcraft_fooding:lemon_jam",
+    "anvilcraft_fooding:cherry",
+    "anvilcraft_fooding:cherry_jam"
+  ]
+}
