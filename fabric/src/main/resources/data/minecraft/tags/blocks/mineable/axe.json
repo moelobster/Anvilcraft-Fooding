@@ -83,6 +83,30 @@
     "anvilcraft_fooding:coconut_fence",
     "anvilcraft_fooding:coconut_fence_gate",
     "anvilcraft_fooding:coconut_door",
-    "anvilcraft_fooding:coconut_trapdoor"
+    "anvilcraft_fooding:coconut_trapdoor",
+
+    "anvilcraft_fooding:carambola_log",
+    "anvilcraft_fooding:carambola_wood",
+    "anvilcraft_fooding:carambola_planks",
+    "anvilcraft_fooding:carambola_stairs",
+    "anvilcraft_fooding:carambola_slab",
+    "anvilcraft_fooding:carambola_button",
+    "anvilcraft_fooding:carambola_pressure_plate",
+    "anvilcraft_fooding:carambola_fence",
+    "anvilcraft_fooding:carambola_fence_gate",
+    "anvilcraft_fooding:carambola_door",
+    "anvilcraft_fooding:carambola_trapdoor",
+
+    "anvilcraft_fooding:toon_log",
+    "anvilcraft_fooding:toon_wood",
+    "anvilcraft_fooding:toon_planks",
+    "anvilcraft_fooding:toon_stairs",
+    "anvilcraft_fooding:toon_slab",
+    "anvilcraft_fooding:toon_button",
+    "anvilcraft_fooding:toon_pressure_plate",
+    "anvilcraft_fooding:toon_fence",
+    "anvilcraft_fooding:toon_fence_gate",
+    "anvilcraft_fooding:toon_door",
+    "anvilcraft_fooding:toon_trapdoor"
   ]
 }

@@ -13,18 +13,18 @@
           "type": "minecraft:item",
           "conditions": [
             {
-              "block": "anvilcraft_fooding:walnut_door",
+              "block": "anvilcraft_fooding:carambola_door",
               "condition": "minecraft:block_state_property",
               "properties": {
                 "half": "lower"
               }
             }
           ],
-          "name": "anvilcraft_fooding:peach_door"
+          "name": "anvilcraft_fooding:carambola_door"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "anvilcraft_fooding:blocks/peach_door"
+  "random_sequence": "anvilcraft_fooding:blocks/carambola_door"
 }
