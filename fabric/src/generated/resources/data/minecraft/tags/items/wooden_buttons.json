@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "anvilcraft_fooding:apple_button",
+    "anvilcraft_fooding:pear_button",
+    "anvilcraft_fooding:lemon_button",
+    "anvilcraft_fooding:walnut_button",
+    "anvilcraft_fooding:banana_button",
+    "anvilcraft_fooding:peach_button",
+    "anvilcraft_fooding:coconut_button",
+    "anvilcraft_fooding:carambola_button",
+    "anvilcraft_fooding:toon_button"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "anvilcraft_fooding:apple_slab",
+    "anvilcraft_fooding:pear_slab",
+    "anvilcraft_fooding:lemon_slab",
+    "anvilcraft_fooding:walnut_slab",
+    "anvilcraft_fooding:banana_slab",
+    "anvilcraft_fooding:peach_slab",
+    "anvilcraft_fooding:coconut_slab",
+    "anvilcraft_fooding:carambola_slab",
+    "anvilcraft_fooding:toon_slab"
+  ]
+}

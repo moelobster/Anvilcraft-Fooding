@@ -140,7 +140,7 @@ public class ModItems {
     public static final Item TOONLOG = registerBlock(ModWood.TOONLOG,BlockItem::new,defaultProperties());
     public static final Item TOONWOOD = registerBlock(ModWood.TOONWOOD,BlockItem::new,defaultProperties());
     public static final Item TOONLEAVES = registerBlock(ModWood.TOONLEAVES,BlockItem::new,defaultProperties());
-    public static final Item TOONASAPLING = registerBlock(ModTrees.TOONSAPLING,BlockItem::new,defaultProperties());
+    public static final Item TOONSAPLING = registerBlock(ModTrees.TOONSAPLING,BlockItem::new,defaultProperties());
     public static final Item TOONPLANKS = registerBlock(ModWood.TOONPLANKS,BlockItem::new,defaultProperties());
     public static final Item TOONSTAIRS = registerBlock(ModWood.TOONSTAIRS,BlockItem::new,defaultProperties());
     public static final Item TOONSLAB = registerBlock(ModWood.TOONSLAB,BlockItem::new,defaultProperties());

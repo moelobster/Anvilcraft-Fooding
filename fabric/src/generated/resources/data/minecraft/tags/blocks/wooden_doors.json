@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "anvilcraft_fooding:apple_door",
+    "anvilcraft_fooding:pear_door",
+    "anvilcraft_fooding:lemon_door",
+    "anvilcraft_fooding:walnut_door",
+    "anvilcraft_fooding:banana_door",
+    "anvilcraft_fooding:peach_door",
+    "anvilcraft_fooding:coconut_door",
+    "anvilcraft_fooding:carambola_door",
+    "anvilcraft_fooding:toon_door"
+  ]
+}

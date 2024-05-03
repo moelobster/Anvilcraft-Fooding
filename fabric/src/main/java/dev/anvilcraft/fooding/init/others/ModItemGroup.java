@@ -217,7 +217,7 @@ public class ModItemGroup {
                 entries.accept(ModItems.PEACHSAPLING.getDefaultInstance());
                 entries.accept(ModItems.COCONUTSAPLING.getDefaultInstance());
                 entries.accept(ModItems.CARAMBOLASAPLING.getDefaultInstance());
-                entries.accept(ModItems.TOONASAPLING.getDefaultInstance());
+                entries.accept(ModItems.TOONSAPLING.getDefaultInstance());
             });
 
 

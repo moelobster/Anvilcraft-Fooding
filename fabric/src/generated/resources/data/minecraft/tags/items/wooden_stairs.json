@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "anvilcraft_fooding:apple_stairs",
+    "anvilcraft_fooding:pear_stairs",
+    "anvilcraft_fooding:lemon_stairs",
+    "anvilcraft_fooding:walnut_stairs",
+    "anvilcraft_fooding:banana_stairs",
+    "anvilcraft_fooding:peach_stairs",
+    "anvilcraft_fooding:coconut_stairs",
+    "anvilcraft_fooding:carambola_stairs",
+    "anvilcraft_fooding:toon_stairs"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "group": "planks",
+  "ingredients": [
+    {
+      "tag": "anvilcraft_fooding:lemon_logs"
+    }
+  ],
+  "result": {
+    "count": 4,
+    "item": "anvilcraft_fooding:lemon_planks"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "anvilcraft_fooding:apple_sapling",
+    "anvilcraft_fooding:pear_sapling",
+    "anvilcraft_fooding:lemon_sapling",
+    "anvilcraft_fooding:walnut_sapling",
+    "anvilcraft_fooding:banana_sapling",
+    "anvilcraft_fooding:peach_sapling",
+    "anvilcraft_fooding:coconut_sapling",
+    "anvilcraft_fooding:carambola_sapling",
+    "anvilcraft_fooding:toon_sapling"
+  ]
+}

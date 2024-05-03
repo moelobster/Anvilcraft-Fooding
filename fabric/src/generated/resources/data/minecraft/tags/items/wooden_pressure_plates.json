@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "anvilcraft_fooding:apple_pressure_plate",
+    "anvilcraft_fooding:pear_pressure_plate",
+    "anvilcraft_fooding:lemon_pressure_plate",
+    "anvilcraft_fooding:walnut_pressure_plate",
+    "anvilcraft_fooding:banana_pressure_plate",
+    "anvilcraft_fooding:peach_pressure_plate",
+    "anvilcraft_fooding:coconut_pressure_plate",
+    "anvilcraft_fooding:carambola_pressure_plate",
+    "anvilcraft_fooding:toon_pressure_plate"
+  ]
+}
