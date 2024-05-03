@@ -1,4 +1,4 @@
-package dev.anvilcraft.fooding.fooddata;
+package dev.anvilcraft.fooding.init.fooddata;
 
 import net.minecraft.world.food.FoodProperties;
 

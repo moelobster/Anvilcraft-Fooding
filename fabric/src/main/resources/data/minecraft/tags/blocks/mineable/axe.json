@@ -3,6 +3,52 @@
   "values": [
     "anvilcraft_fooding:apple_log",
     "anvilcraft_fooding:apple_wood",
-    "anvilcraft_fooding:apple_planks"
+    "anvilcraft_fooding:apple_planks",
+    "anvilcraft_fooding:apple_stairs",
+    "anvilcraft_fooding:apple_slab",
+    "anvilcraft_fooding:apple_button",
+    "anvilcraft_fooding:apple_pressure_plate",
+    "anvilcraft_fooding:apple_fence",
+    "anvilcraft_fooding:apple_fence_gate",
+    "anvilcraft_fooding:apple_door",
+    "anvilcraft_fooding:apple_trapdoor",
+
+    "anvilcraft_fooding:pear_log",
+    "anvilcraft_fooding:pear_wood",
+    "anvilcraft_fooding:pear_planks",
+    "anvilcraft_fooding:pear_stairs",
+    "anvilcraft_fooding:pear_slab",
+    "anvilcraft_fooding:pear_button",
+    "anvilcraft_fooding:pear_pressure_plate",
+    "anvilcraft_fooding:pear_fence",
+    "anvilcraft_fooding:pear_fence_gate",
+    "anvilcraft_fooding:pear_door",
+    "anvilcraft_fooding:pear_trapdoor",
+
+    "anvilcraft_fooding:lemon_log",
+    "anvilcraft_fooding:lemon_wood",
+    "anvilcraft_fooding:lemon_planks",
+    "anvilcraft_fooding:lemon_stairs",
+    "anvilcraft_fooding:lemon_slab",
+    "anvilcraft_fooding:lemon_button",
+    "anvilcraft_fooding:lemon_pressure_plate",
+    "anvilcraft_fooding:lemon_fence",
+    "anvilcraft_fooding:lemon_fence_gate",
+    "anvilcraft_fooding:lemon_door",
+    "anvilcraft_fooding:lemon_trapdoor",
+
+    "anvilcraft_fooding:walnut_log",
+    "anvilcraft_fooding:walnut_wood",
+    "anvilcraft_fooding:walnut_planks",
+    "anvilcraft_fooding:walnut_stairs",
+    "anvilcraft_fooding:walnut_slab",
+    "anvilcraft_fooding:walnut_button",
+    "anvilcraft_fooding:walnut_pressure_plate",
+    "anvilcraft_fooding:walnut_fence",
+    "anvilcraft_fooding:walnut_fence_gate",
+    "anvilcraft_fooding:walnut_door",
+    "anvilcraft_fooding:walnut_trapdoor"
+
+
   ]
 }

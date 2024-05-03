@@ -1,7 +1,7 @@
 package dev.anvilcraft.fooding.init.items;
 
 import dev.anvilcraft.fooding.fabric.AnvilCraftFoodingFabric;
-import dev.anvilcraft.fooding.fooddata.JamsData;
+import dev.anvilcraft.fooding.init.fooddata.JamsData;
 import net.minecraft.core.Registry;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.world.item.Item;

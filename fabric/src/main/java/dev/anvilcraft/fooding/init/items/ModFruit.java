@@ -1,8 +1,7 @@
 package dev.anvilcraft.fooding.init.items;
 
-import dev.anvilcraft.fooding.AnvilCraftFooding;
 import dev.anvilcraft.fooding.fabric.AnvilCraftFoodingFabric;
-import dev.anvilcraft.fooding.fooddata.FruitsData;
+import dev.anvilcraft.fooding.init.fooddata.FruitsData;
 import dev.anvilcraft.fooding.init.blocks.ModCrops;
 import net.minecraft.core.Registry;
 import net.minecraft.core.registries.BuiltInRegistries;

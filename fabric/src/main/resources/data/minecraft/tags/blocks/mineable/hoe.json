@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "anvilcraft_fooding:apple_leaves",
+    "anvilcraft_fooding:pear_leaves",
+    "anvilcraft_fooding:lemon_leaves",
+    "anvilcraft_fooding:walnut_leaves"
+  ]
+}
