@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "conditions": [
+            {
+              "block": "anvilcraft_fooding:coconut_door",
+              "condition": "minecraft:peach_state_property",
+              "properties": {
+                "half": "lower"
+              }
+            }
+          ],
+          "name": "anvilcraft_fooding:coconut_door"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "anvilcraft_fooding:blocks/coconut_door"
+}

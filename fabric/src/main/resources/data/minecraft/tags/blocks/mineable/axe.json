@@ -47,8 +47,42 @@
     "anvilcraft_fooding:walnut_fence",
     "anvilcraft_fooding:walnut_fence_gate",
     "anvilcraft_fooding:walnut_door",
-    "anvilcraft_fooding:walnut_trapdoor"
+    "anvilcraft_fooding:walnut_trapdoor",
 
+    "anvilcraft_fooding:banana_log",
+    "anvilcraft_fooding:banana_wood",
+    "anvilcraft_fooding:banana_planks",
+    "anvilcraft_fooding:banana_stairs",
+    "anvilcraft_fooding:banana_slab",
+    "anvilcraft_fooding:banana_button",
+    "anvilcraft_fooding:banana_pressure_plate",
+    "anvilcraft_fooding:banana_fence",
+    "anvilcraft_fooding:banana_fence_gate",
+    "anvilcraft_fooding:banana_door",
+    "anvilcraft_fooding:banana_trapdoor",
 
+    "anvilcraft_fooding:peach_log",
+    "anvilcraft_fooding:peach_wood",
+    "anvilcraft_fooding:peach_planks",
+    "anvilcraft_fooding:peach_stairs",
+    "anvilcraft_fooding:peach_slab",
+    "anvilcraft_fooding:peach_button",
+    "anvilcraft_fooding:peach_pressure_plate",
+    "anvilcraft_fooding:peach_fence",
+    "anvilcraft_fooding:peach_fence_gate",
+    "anvilcraft_fooding:peach_door",
+    "anvilcraft_fooding:peach_trapdoor",
+
+    "anvilcraft_fooding:coconut_log",
+    "anvilcraft_fooding:coconut_wood",
+    "anvilcraft_fooding:coconut_planks",
+    "anvilcraft_fooding:coconut_stairs",
+    "anvilcraft_fooding:coconut_slab",
+    "anvilcraft_fooding:coconut_button",
+    "anvilcraft_fooding:coconut_pressure_plate",
+    "anvilcraft_fooding:coconut_fence",
+    "anvilcraft_fooding:coconut_fence_gate",
+    "anvilcraft_fooding:coconut_door",
+    "anvilcraft_fooding:coconut_trapdoor"
   ]
 }
