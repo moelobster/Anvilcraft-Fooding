@@ -34,7 +34,8 @@ public class ModPlayerStatistics {
     public static final ResourceLocation LUXURIOUSJUDGE = makeCustomStat("luxurious_judge",StatFormatter.DEFAULT);
     public static final ResourceLocation POISONCOUNTER = makeCustomStat("poison_counter",StatFormatter.DEFAULT);
     public static final ResourceLocation POISONJUDGE = makeCustomStat("poison_judge",StatFormatter.DEFAULT);
-
+    public static final ResourceLocation BITTERCOUNTER = makeCustomStat("bitter_counter",StatFormatter.DEFAULT);
+    public static final ResourceLocation BITTERJUDGE = makeCustomStat("bitter_judge",StatFormatter.DEFAULT);
 
 
 

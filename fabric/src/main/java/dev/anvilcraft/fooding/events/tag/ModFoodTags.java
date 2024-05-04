@@ -18,6 +18,7 @@ public final class ModFoodTags {
     public static final TagKey<Item> LUXURIOUS = ModFoodTags.bind("luxurious_tag");
     public static final TagKey<Item> HOT = ModFoodTags.bind("hot_tag");
     public static final TagKey<Item> POISON = ModFoodTags.bind("poison_tag");
+    public static final TagKey<Item> BITTER = ModFoodTags.bind("bitter_tag");
 
     private static @NotNull TagKey<Item> bind(String id) {
         return TagKey.create(Registries.ITEM, AnvilCraftFoodingFabric.of(id));

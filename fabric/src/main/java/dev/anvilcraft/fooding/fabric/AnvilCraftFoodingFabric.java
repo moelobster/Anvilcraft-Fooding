@@ -1,11 +1,11 @@
 package dev.anvilcraft.fooding.fabric;
 
-import dev.anvilcraft.fooding.init.blocks.ModCrops;
-import dev.anvilcraft.fooding.init.blocks.ModTrees;
-import dev.anvilcraft.fooding.init.blocks.ModWood;
-import dev.anvilcraft.fooding.init.items.*;
-import dev.anvilcraft.fooding.init.others.ModItemGroup;
-import dev.anvilcraft.fooding.init.others.ModItems;
+import dev.anvilcraft.fooding.init.block.ModCropsBlocks;
+import dev.anvilcraft.fooding.init.block.ModTreesBlocks;
+import dev.anvilcraft.fooding.init.block.ModWoodBlocks;
+import dev.anvilcraft.fooding.init.food.*;
+import dev.anvilcraft.fooding.init.others.ModItemGroups;
+import dev.anvilcraft.fooding.init.others.ModBlockItems;
 import dev.anvilcraft.fooding.init.others.ModPlayerStatistics;
 import net.fabricmc.api.ModInitializer;
 import net.minecraft.resources.ResourceLocation;
@@ -16,16 +16,16 @@ public class AnvilCraftFoodingFabric implements ModInitializer {
 
     @Override
     public void onInitialize() {
-        ModTrees.register();
-        ModWood.register();
-        ModItems.register();
-        ModMushroom.register();
-        ModCereals.register();
-        ModVegetable.register();
-        ModFruit.register();
-        ModJams.register();
-        ModCrops.register();
-        ModItemGroup.register();
+        ModTreesBlocks.register();
+        ModWoodBlocks.register();
+        ModBlockItems.register();
+        ModMushroomItems.register();
+        ModCerealsItems.register();
+        ModVegetableItems.register();
+        ModFruitItems.register();
+        ModJamsItems.register();
+        ModCropsBlocks.register();
+        ModItemGroups.register();
         ModPlayerStatistics.register();
     }
     public static @NotNull ResourceLocation of(String id) {
