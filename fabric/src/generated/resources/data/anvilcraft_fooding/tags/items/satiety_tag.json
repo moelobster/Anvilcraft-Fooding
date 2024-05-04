@@ -3,6 +3,8 @@
   "values": [
     "minecraft:pumpkin_pie",
     "minecraft:baked_potato",
-    "minecraft:bread"
+    "minecraft:bread",
+    "anvilcraft:creamy_bread_roll",
+    "anvilcraft_fooding:dumpling"
   ]
 }

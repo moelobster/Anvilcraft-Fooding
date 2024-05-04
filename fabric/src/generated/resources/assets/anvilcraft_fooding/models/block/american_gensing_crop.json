@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "anvilcraft_fooding:block/american_gensing_crop"
+  }
+}

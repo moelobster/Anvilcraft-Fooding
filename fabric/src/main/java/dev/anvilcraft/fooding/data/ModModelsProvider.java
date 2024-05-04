@@ -140,6 +140,23 @@ public class ModModelsProvider extends FabricModelProvider {
 
         blockStateModelGenerator.createCrossBlockWithDefaultItem(ModCropsBlocks.STRAWBERYCROP,BlockModelGenerators.TintState.NOT_TINTED);
         blockStateModelGenerator.createCrossBlockWithDefaultItem(ModCropsBlocks.BLUEBERYCROP,BlockModelGenerators.TintState.NOT_TINTED);
+        blockStateModelGenerator.createCrossBlockWithDefaultItem(ModCropsBlocks.HOUTTUYNIACORDATACROP,BlockModelGenerators.TintState.NOT_TINTED);
+        blockStateModelGenerator.createCrossBlockWithDefaultItem(ModCropsBlocks.CORIANDERCROP,BlockModelGenerators.TintState.NOT_TINTED);
+        blockStateModelGenerator.createCrossBlockWithDefaultItem(ModCropsBlocks.CELERYCROP,BlockModelGenerators.TintState.NOT_TINTED);
+        blockStateModelGenerator.createCrossBlockWithDefaultItem(ModCropsBlocks.SPINACHCROP,BlockModelGenerators.TintState.NOT_TINTED);
+        blockStateModelGenerator.createCrossBlockWithDefaultItem(ModCropsBlocks.CABBAGECROP,BlockModelGenerators.TintState.NOT_TINTED);
+        blockStateModelGenerator.createCrossBlockWithDefaultItem(ModCropsBlocks.CHINESECABBAGECROP,BlockModelGenerators.TintState.NOT_TINTED);
+        blockStateModelGenerator.createCrossBlockWithDefaultItem(ModCropsBlocks.EGGPLANTCROP,BlockModelGenerators.TintState.NOT_TINTED);
+        blockStateModelGenerator.createCrossBlockWithDefaultItem(ModCropsBlocks.CHILICROP,BlockModelGenerators.TintState.NOT_TINTED);
+        blockStateModelGenerator.createCrossBlockWithDefaultItem(ModCropsBlocks.TOMATOCROP,BlockModelGenerators.TintState.NOT_TINTED);
+        blockStateModelGenerator.createCrossBlockWithDefaultItem(ModCropsBlocks.GENSINGCROP,BlockModelGenerators.TintState.NOT_TINTED);
+        blockStateModelGenerator.createCrossBlockWithDefaultItem(ModCropsBlocks.AMERICANGENSINGCROP,BlockModelGenerators.TintState.NOT_TINTED);
+        blockStateModelGenerator.createCrossBlockWithDefaultItem(ModCropsBlocks.GOURDCROP,BlockModelGenerators.TintState.NOT_TINTED);
+        blockStateModelGenerator.createCrossBlockWithDefaultItem(ModCropsBlocks.SOYBEANSCROP,BlockModelGenerators.TintState.NOT_TINTED);
+        blockStateModelGenerator.createCrossBlockWithDefaultItem(ModCropsBlocks.FRENCHBEANCROP,BlockModelGenerators.TintState.NOT_TINTED);
+        blockStateModelGenerator.createCrossBlockWithDefaultItem(ModCropsBlocks.COWPEACROP,BlockModelGenerators.TintState.NOT_TINTED);
+        blockStateModelGenerator.createCrossBlockWithDefaultItem(ModCropsBlocks.PEACROP,BlockModelGenerators.TintState.NOT_TINTED);
+        blockStateModelGenerator.createCrossBlockWithDefaultItem(ModCropsBlocks.PEANUTCROP,BlockModelGenerators.TintState.NOT_TINTED);
 
 
     }

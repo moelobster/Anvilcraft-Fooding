@@ -29,7 +29,7 @@ public class ModVegetableItems {
     public final static Item AMERICANGENSING = registerItem("american_gensing",Item::new,defaultProperties().food(VegetablesData.AMERICANGENSING));
     public final static Item GOURD = registerItem("gourd",Item::new,defaultProperties().food(VegetablesData.GOURD));
     public final static Item SOYBEANS = registerItem("soybeans",Item::new,defaultProperties().food(VegetablesData.SOYBEANS));
-    public final static Item FRENCHBEAN = registerItem("french_beans",Item::new,defaultProperties().food(VegetablesData.FRENCHBEAN));
+    public final static Item FRENCHBEANS = registerItem("french_beans",Item::new,defaultProperties().food(VegetablesData.FRENCHBEAN));
     public final static Item COWPEA = registerItem("cowpea",Item::new,defaultProperties().food(VegetablesData.COWPEA));
     public final static Item PEA = registerItem("pea",Item::new,defaultProperties().food(VegetablesData.PEA));
     public final static Item PEANUT = registerItem("peanut",Item::new,defaultProperties().food(VegetablesData.PEANUT));

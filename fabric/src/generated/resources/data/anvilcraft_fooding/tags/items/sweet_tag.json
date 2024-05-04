@@ -26,6 +26,9 @@
     "anvilcraft_fooding:grape",
     "anvilcraft_fooding:grape_jam",
     "anvilcraft_fooding:tomato",
-    "anvilcraft_fooding:tomato_jam"
+    "anvilcraft_fooding:tomato_jam",
+    "anvilcraft:chocolate",
+    "anvilcraft:chocolate_black",
+    "anvilcraft:chocolate_white"
   ]
 }

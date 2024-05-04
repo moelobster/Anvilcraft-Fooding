@@ -6,6 +6,8 @@
     "minecraft:cooked_chicken",
     "minecraft:cooked_mutton",
     "minecraft:cooked_porkchop",
-    "minecraft:cooked_rabbit"
+    "minecraft:cooked_rabbit",
+    "anvilcraft:beef_mushroom_stew_raw",
+    "anvilcraft_fooding:dumpling"
   ]
 }
