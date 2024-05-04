@@ -2,19 +2,17 @@ package dev.anvilcraft.fooding.data;
 
 
 import dev.anvilcraft.fooding.events.tag.ModFoodTags;
-import dev.anvilcraft.fooding.init.blocks.ModTrees;
-import dev.anvilcraft.fooding.init.blocks.ModWood;
-import dev.anvilcraft.fooding.init.items.ModFruit;
-import dev.anvilcraft.fooding.init.items.ModJams;
-import dev.anvilcraft.fooding.init.items.ModVegetable;
-import dev.anvilcraft.fooding.init.others.ModItems;
-import dev.dubhe.anvilcraft.init.ModItemTags;
+import dev.anvilcraft.fooding.init.food.ModFruitItems;
+import dev.anvilcraft.fooding.init.food.ModJamsItems;
+import dev.anvilcraft.fooding.init.food.ModVegetableItems;
+import dev.anvilcraft.fooding.init.food.dish.HomeCookedDish;
+import dev.anvilcraft.fooding.init.others.ModBlockItems;
+import dev.dubhe.anvilcraft.init.ModItems;
+import dev.dubhe.anvilcraft.item.ModFoods;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricTagProvider;
 import net.minecraft.core.HolderLookup;
-import net.minecraft.tags.BlockTags;
 import net.minecraft.tags.ItemTags;
-import net.minecraft.world.item.Item;
 import net.minecraft.world.item.Items;
 
 import java.util.concurrent.CompletableFuture;
@@ -27,205 +25,212 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
     @Override
     protected void addTags(HolderLookup.Provider arg) {
         getOrCreateTagBuilder(ItemTags.LOGS_THAT_BURN)
-                .add(ModItems.APPLELOG)
-                .add(ModItems.APPLEWOOD)
-                .add(ModItems.PEARLOG)
-                .add(ModItems.PEARWOOD)
-                .add(ModItems.LEMONLOG)
-                .add(ModItems.LEMONWOOD)
-                .add(ModItems.WALNUTLOG)
-                .add(ModItems.WALNUTWOOD)
-                .add(ModItems.BANANALOG)
-                .add(ModItems.BANANAWOOD)
-                .add(ModItems.PEACHLOG)
-                .add(ModItems.PEACHWOOD)
-                .add(ModItems.COCONUTLOG)
-                .add(ModItems.COCONUTWOOD)
-                .add(ModItems.CARAMBOLALOG)
-                .add(ModItems.CARAMBOLAWOOD)
-                .add(ModItems.TOONLOG)
-                .add(ModItems.TOONWOOD);
+                .add(ModBlockItems.APPLELOG)
+                .add(ModBlockItems.APPLEWOOD)
+                .add(ModBlockItems.PEARLOG)
+                .add(ModBlockItems.PEARWOOD)
+                .add(ModBlockItems.LEMONLOG)
+                .add(ModBlockItems.LEMONWOOD)
+                .add(ModBlockItems.WALNUTLOG)
+                .add(ModBlockItems.WALNUTWOOD)
+                .add(ModBlockItems.BANANALOG)
+                .add(ModBlockItems.BANANAWOOD)
+                .add(ModBlockItems.PEACHLOG)
+                .add(ModBlockItems.PEACHWOOD)
+                .add(ModBlockItems.COCONUTLOG)
+                .add(ModBlockItems.COCONUTWOOD)
+                .add(ModBlockItems.CARAMBOLALOG)
+                .add(ModBlockItems.CARAMBOLAWOOD)
+                .add(ModBlockItems.TOONLOG)
+                .add(ModBlockItems.TOONWOOD);
         getOrCreateTagBuilder(ItemTags.PLANKS)
-                .add(ModItems.APPLEPLANKS)
-                .add(ModItems.PEARPLANKS)
-                .add(ModItems.LEMONPLANKS)
-                .add(ModItems.WALNUTPLANKS)
-                .add(ModItems.BANANAPLANKS)
-                .add(ModItems.PEACHPLANKS)
-                .add(ModItems.COCONUTPLANKS)
-                .add(ModItems.CARAMBOLAPLANKS)
-                .add(ModItems.TOONPLANKS);
+                .add(ModBlockItems.APPLEPLANKS)
+                .add(ModBlockItems.PEARPLANKS)
+                .add(ModBlockItems.LEMONPLANKS)
+                .add(ModBlockItems.WALNUTPLANKS)
+                .add(ModBlockItems.BANANAPLANKS)
+                .add(ModBlockItems.PEACHPLANKS)
+                .add(ModBlockItems.COCONUTPLANKS)
+                .add(ModBlockItems.CARAMBOLAPLANKS)
+                .add(ModBlockItems.TOONPLANKS);
         getOrCreateTagBuilder(ItemTags.LOGS)
-                .add(ModItems.APPLELOG)
-                .add(ModItems.PEARLOG)
-                .add(ModItems.LEMONLOG)
-                .add(ModItems.WALNUTLOG)
-                .add(ModItems.BANANALOG)
-                .add(ModItems.PEACHLOG)
-                .add(ModItems.COCONUTLOG)
-                .add(ModItems.CARAMBOLALOG)
-                .add(ModItems.TOONLOG);
+                .add(ModBlockItems.APPLELOG)
+                .add(ModBlockItems.PEARLOG)
+                .add(ModBlockItems.LEMONLOG)
+                .add(ModBlockItems.WALNUTLOG)
+                .add(ModBlockItems.BANANALOG)
+                .add(ModBlockItems.PEACHLOG)
+                .add(ModBlockItems.COCONUTLOG)
+                .add(ModBlockItems.CARAMBOLALOG)
+                .add(ModBlockItems.TOONLOG);
         getOrCreateTagBuilder(ItemTags.WOODEN_BUTTONS)
-                .add(ModItems.APPLEBUTTON)
-                .add(ModItems.PEARBUTTON)
-                .add(ModItems.LEMONBUTTON)
-                .add(ModItems.WALNUTBUTTON)
-                .add(ModItems.BANANABUTTON)
-                .add(ModItems.PEACHBUTTON)
-                .add(ModItems.COCONUTBUTTON)
-                .add(ModItems.CARAMBOLABUTTON)
-                .add(ModItems.TOONBUTTON);
+                .add(ModBlockItems.APPLEBUTTON)
+                .add(ModBlockItems.PEARBUTTON)
+                .add(ModBlockItems.LEMONBUTTON)
+                .add(ModBlockItems.WALNUTBUTTON)
+                .add(ModBlockItems.BANANABUTTON)
+                .add(ModBlockItems.PEACHBUTTON)
+                .add(ModBlockItems.COCONUTBUTTON)
+                .add(ModBlockItems.CARAMBOLABUTTON)
+                .add(ModBlockItems.TOONBUTTON);
         getOrCreateTagBuilder(ItemTags.WOODEN_DOORS)
-                .add(ModItems.APPLEDOOR)
-                .add(ModItems.PEARDOOR)
-                .add(ModItems.LEMONDOOR)
-                .add(ModItems.WALNUTDOOR)
-                .add(ModItems.BANANADOOR)
-                .add(ModItems.PEACHDOOR)
-                .add(ModItems.COCONUTDOOR)
-                .add(ModItems.CARAMBOLADOOR)
-                .add(ModItems.TOONDOOR);
+                .add(ModBlockItems.APPLEDOOR)
+                .add(ModBlockItems.PEARDOOR)
+                .add(ModBlockItems.LEMONDOOR)
+                .add(ModBlockItems.WALNUTDOOR)
+                .add(ModBlockItems.BANANADOOR)
+                .add(ModBlockItems.PEACHDOOR)
+                .add(ModBlockItems.COCONUTDOOR)
+                .add(ModBlockItems.CARAMBOLADOOR)
+                .add(ModBlockItems.TOONDOOR);
         getOrCreateTagBuilder(ItemTags.WOODEN_STAIRS)
-                .add(ModItems.APPLESTAIRS)
-                .add(ModItems.PEARSTAIRS)
-                .add(ModItems.LEMONSTAIRS)
-                .add(ModItems.WALNUTSTAIRS)
-                .add(ModItems.BANANASTAIRS)
-                .add(ModItems.PEACHSTAIRS)
-                .add(ModItems.COCONUTSTAIRS)
-                .add(ModItems.CARAMBOLASTAIRS)
-                .add(ModItems.TOONSTAIRS);
+                .add(ModBlockItems.APPLESTAIRS)
+                .add(ModBlockItems.PEARSTAIRS)
+                .add(ModBlockItems.LEMONSTAIRS)
+                .add(ModBlockItems.WALNUTSTAIRS)
+                .add(ModBlockItems.BANANASTAIRS)
+                .add(ModBlockItems.PEACHSTAIRS)
+                .add(ModBlockItems.COCONUTSTAIRS)
+                .add(ModBlockItems.CARAMBOLASTAIRS)
+                .add(ModBlockItems.TOONSTAIRS);
         getOrCreateTagBuilder(ItemTags.WOODEN_SLABS)
-                .add(ModItems.APPLESLAB)
-                .add(ModItems.PEARSLAB)
-                .add(ModItems.LEMONSLAB)
-                .add(ModItems.WALNUTSLAB)
-                .add(ModItems.BANANASLAB)
-                .add(ModItems.PEACHSLAB)
-                .add(ModItems.COCONUTSLAB)
-                .add(ModItems.CARAMBOLASLAB)
-                .add(ModItems.TOONSLAB);
+                .add(ModBlockItems.APPLESLAB)
+                .add(ModBlockItems.PEARSLAB)
+                .add(ModBlockItems.LEMONSLAB)
+                .add(ModBlockItems.WALNUTSLAB)
+                .add(ModBlockItems.BANANASLAB)
+                .add(ModBlockItems.PEACHSLAB)
+                .add(ModBlockItems.COCONUTSLAB)
+                .add(ModBlockItems.CARAMBOLASLAB)
+                .add(ModBlockItems.TOONSLAB);
         getOrCreateTagBuilder(ItemTags.FENCES)
-                .add(ModItems.APPLEFENCE)
-                .add(ModItems.PEARFENCE)
-                .add(ModItems.LEMONFENCE)
-                .add(ModItems.WALNUTFENCE)
-                .add(ModItems.BANANAFENCE)
-                .add(ModItems.PEACHFENCE)
-                .add(ModItems.COCONUTFENCE)
-                .add(ModItems.CARAMBOLAFENCE)
-                .add(ModItems.TOONFENCE);
+                .add(ModBlockItems.APPLEFENCE)
+                .add(ModBlockItems.PEARFENCE)
+                .add(ModBlockItems.LEMONFENCE)
+                .add(ModBlockItems.WALNUTFENCE)
+                .add(ModBlockItems.BANANAFENCE)
+                .add(ModBlockItems.PEACHFENCE)
+                .add(ModBlockItems.COCONUTFENCE)
+                .add(ModBlockItems.CARAMBOLAFENCE)
+                .add(ModBlockItems.TOONFENCE);
         getOrCreateTagBuilder(ItemTags.WOODEN_PRESSURE_PLATES)
-                .add(ModItems.APPLEPRESSUERPLATE)
-                .add(ModItems.PEARPRESSUERPLATE)
-                .add(ModItems.LEMONPRESSUERPLATE)
-                .add(ModItems.WALNUTPRESSUERPLATE)
-                .add(ModItems.BANANAPRESSUERPLATE)
-                .add(ModItems.PEACHPRESSUERPLATE)
-                .add(ModItems.COCONUTPRESSUERPLATE)
-                .add(ModItems.CARAMBOLAPRESSUERPLATE)
-                .add(ModItems.TOONPRESSUERPLATE);
+                .add(ModBlockItems.APPLEPRESSUERPLATE)
+                .add(ModBlockItems.PEARPRESSUERPLATE)
+                .add(ModBlockItems.LEMONPRESSUERPLATE)
+                .add(ModBlockItems.WALNUTPRESSUERPLATE)
+                .add(ModBlockItems.BANANAPRESSUERPLATE)
+                .add(ModBlockItems.PEACHPRESSUERPLATE)
+                .add(ModBlockItems.COCONUTPRESSUERPLATE)
+                .add(ModBlockItems.CARAMBOLAPRESSUERPLATE)
+                .add(ModBlockItems.TOONPRESSUERPLATE);
         getOrCreateTagBuilder(ItemTags.WOODEN_TRAPDOORS)
-                .add(ModItems.APPLETRAPDOOR)
-                .add(ModItems.PEARTRAPDOOR)
-                .add(ModItems.LEMONTRAPDOOR)
-                .add(ModItems.WALNUTTRAPDOOR)
-                .add(ModItems.BANANATRAPDOOR)
-                .add(ModItems.PEACHTRAPDOOR)
-                .add(ModItems.COCONUTTRAPDOOR)
-                .add(ModItems.CARAMBOLATRAPDOOR)
-                .add(ModItems.TOONTRAPDOOR);
+                .add(ModBlockItems.APPLETRAPDOOR)
+                .add(ModBlockItems.PEARTRAPDOOR)
+                .add(ModBlockItems.LEMONTRAPDOOR)
+                .add(ModBlockItems.WALNUTTRAPDOOR)
+                .add(ModBlockItems.BANANATRAPDOOR)
+                .add(ModBlockItems.PEACHTRAPDOOR)
+                .add(ModBlockItems.COCONUTTRAPDOOR)
+                .add(ModBlockItems.CARAMBOLATRAPDOOR)
+                .add(ModBlockItems.TOONTRAPDOOR);
         getOrCreateTagBuilder(ItemTags.SAPLINGS)
-                .add(ModItems.APPLESAPLING)
-                .add(ModItems.PEARSAPLING)
-                .add(ModItems.LEMONSAPLING)
-                .add(ModItems.WALNUTSAPLING)
-                .add(ModItems.BANANASAPLING)
-                .add(ModItems.PEACHSAPLING)
-                .add(ModItems.COCONUTSAPLING)
-                .add(ModItems.CARAMBOLASAPLING)
-                .add(ModItems.TOONSAPLING);
+                .add(ModBlockItems.APPLESAPLING)
+                .add(ModBlockItems.PEARSAPLING)
+                .add(ModBlockItems.LEMONSAPLING)
+                .add(ModBlockItems.WALNUTSAPLING)
+                .add(ModBlockItems.BANANASAPLING)
+                .add(ModBlockItems.PEACHSAPLING)
+                .add(ModBlockItems.COCONUTSAPLING)
+                .add(ModBlockItems.CARAMBOLASAPLING)
+                .add(ModBlockItems.TOONSAPLING);
         getOrCreateTagBuilder(ItemTags.LEAVES)
-                .add(ModItems.APPLELEAVES)
-                .add(ModItems.PEARLEAVES)
-                .add(ModItems.LEMONLEAVES)
-                .add(ModItems.WALNUTLEAVES)
-                .add(ModItems.BANANALEAVES)
-                .add(ModItems.PEACHLEAVES)
-                .add(ModItems.COCONUTLEAVES)
-                .add(ModItems.CARAMBOLALEAVES)
-                .add(ModItems.TOONLEAVES);
+                .add(ModBlockItems.APPLELEAVES)
+                .add(ModBlockItems.PEARLEAVES)
+                .add(ModBlockItems.LEMONLEAVES)
+                .add(ModBlockItems.WALNUTLEAVES)
+                .add(ModBlockItems.BANANALEAVES)
+                .add(ModBlockItems.PEACHLEAVES)
+                .add(ModBlockItems.COCONUTLEAVES)
+                .add(ModBlockItems.CARAMBOLALEAVES)
+                .add(ModBlockItems.TOONLEAVES);
 
 
         getOrCreateTagBuilder(ModFoodTags.SWEET)//甜
                 .add(Items.HONEY_BOTTLE)
                 .add(Items.PUMPKIN_PIE)
                 .add(Items.GLOW_BERRIES)
-                .add(ModJams.GLOWBERRIESJAM)
+                .add(ModJamsItems.GLOWBERRIESJAM)
                 .add(Items.SWEET_BERRIES)
-                .add(ModJams.SWEETBERRIESJAM)
+                .add(ModJamsItems.SWEETBERRIESJAM)
                 .add(Items.MELON_SLICE)
-                .add(ModFruit.PEAR)
-                .add(ModJams.PEARJAM)
+                .add(ModFruitItems.PEAR)
+                .add(ModJamsItems.PEARJAM)
                 .add(Items.APPLE)
-                .add(ModJams.APPLEJAM)
-                .add(ModFruit.BANANA)
-                .add(ModFruit.BLUEBERRY)
-                .add(ModJams.BLUEBERRYJAM)
-                .add(ModFruit.STRAWBERRY)
-                .add(ModJams.STRAWBERRYJAM)
-                .add(ModFruit.PEACH)
-                .add(ModJams.PEACHJAM)
-                .add(ModFruit.CARAMBOLA)
-                .add(ModFruit.CHERRY)
-                .add(ModJams.CARAMBOLAJAM)
-                .add(ModFruit.COCONUT)
-                .add(ModFruit.GRAPE)
-                .add(ModJams.GRAPEJAM)
-                .add(ModVegetable.TOMATO)
-                .add(ModJams.TOMATOJAM);
+                .add(ModJamsItems.APPLEJAM)
+                .add(ModFruitItems.BANANA)
+                .add(ModFruitItems.BLUEBERRY)
+                .add(ModJamsItems.BLUEBERRYJAM)
+                .add(ModFruitItems.STRAWBERRY)
+                .add(ModJamsItems.STRAWBERRYJAM)
+                .add(ModFruitItems.PEACH)
+                .add(ModJamsItems.PEACHJAM)
+                .add(ModFruitItems.CARAMBOLA)
+                .add(ModFruitItems.CHERRY)
+                .add(ModJamsItems.CARAMBOLAJAM)
+                .add(ModFruitItems.COCONUT)
+                .add(ModFruitItems.GRAPE)
+                .add(ModJamsItems.GRAPEJAM)
+                .add(ModVegetableItems.TOMATO)
+                .add(ModJamsItems.TOMATOJAM)
+                .add(ModItems.CHOCOLATE.getId())
+                .add(ModItems.CHOCOLATE_BLACK.getId())
+                .add(ModItems.CHOCOLATE_WHITE.getId());
         getOrCreateTagBuilder(ModFoodTags.ACID)//酸
-                .add(ModVegetable.TOMATO)
-                .add(ModJams.TOMATOJAM)
-                .add(ModFruit.GRAPE)
-                .add(ModJams.GRAPEJAM)
-                .add(ModFruit.LEMON)
-                .add(ModJams.LEMONJAM)
-                .add(ModFruit.CHERRY)
-                .add(ModJams.CHERRYJAM);
+                .add(ModVegetableItems.TOMATO)
+                .add(ModJamsItems.TOMATOJAM)
+                .add(ModFruitItems.GRAPE)
+                .add(ModJamsItems.GRAPEJAM)
+                .add(ModFruitItems.LEMON)
+                .add(ModJamsItems.LEMONJAM)
+                .add(ModFruitItems.CHERRY)
+                .add(ModJamsItems.CHERRYJAM);
         getOrCreateTagBuilder(ModFoodTags.HOT)//辛
-                .add(ModVegetable.CHILI)
-                .add(ModVegetable.HOUTTUYNIACORDATA)
-                .add(ModJams.CHILIJAM);
+                .add(ModVegetableItems.CHILI)
+                .add(ModVegetableItems.HOUTTUYNIACORDATA)
+                .add(ModJamsItems.CHILIJAM);
         getOrCreateTagBuilder(ModFoodTags.NUT)//坚果
-                .add(ModFruit.TOON)
-                .add(ModFruit.WALNUT);
+                .add(ModFruitItems.TOON)
+                .add(ModFruitItems.WALNUT);
         getOrCreateTagBuilder(ModFoodTags.SATIETY)//饱腹
                 .add(Items.PUMPKIN_PIE)
                 .add(Items.BAKED_POTATO)
-                .add(Items.BREAD);
+                .add(Items.BREAD)
+                .add(ModItems.CREAMY_BREAD_ROLL.getId())
+                .add(HomeCookedDish.DUMPLING);
         getOrCreateTagBuilder(ModFoodTags.FRUIT)//果味
                 .add(Items.GLOW_BERRIES)
                 .add(Items.SWEET_BERRIES)
                 .add(Items.MELON_SLICE)
                 .add(Items.APPLE)
-                .add(ModFruit.PEAR)
-                .add(ModFruit.BANANA)
-                .add(ModFruit.BLUEBERRY)
-                .add(ModFruit.STRAWBERRY)
-                .add(ModFruit.PEACH)
-                .add(ModFruit.CARAMBOLA)
-                .add(ModFruit.CHERRY)
-                .add(ModFruit.COCONUT)
-                .add(ModFruit.GRAPE)
-                .add(ModFruit.LEMON);
+                .add(ModFruitItems.PEAR)
+                .add(ModFruitItems.BANANA)
+                .add(ModFruitItems.BLUEBERRY)
+                .add(ModFruitItems.STRAWBERRY)
+                .add(ModFruitItems.PEACH)
+                .add(ModFruitItems.CARAMBOLA)
+                .add(ModFruitItems.CHERRY)
+                .add(ModFruitItems.COCONUT)
+                .add(ModFruitItems.GRAPE)
+                .add(ModFruitItems.LEMON);
         getOrCreateTagBuilder(ModFoodTags.MEAT)//肉
                 .add(Items.RABBIT_STEW)
                 .add(Items.COOKED_BEEF)
                 .add(Items.COOKED_CHICKEN)
                 .add(Items.COOKED_MUTTON)
                 .add(Items.COOKED_PORKCHOP)
-                .add(Items.COOKED_RABBIT);
+                .add(Items.COOKED_RABBIT)
+                .add(ModItems.BEEF_MUSHROOM_STEW_RAW.getId())
+                .add(HomeCookedDish.DUMPLING);
         getOrCreateTagBuilder(ModFoodTags.SEAFOOD)//海味
                 .add(Items.COOKED_COD)
                 .add(Items.COOKED_SALMON)
@@ -242,6 +247,8 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
                 .add(Items.GOLDEN_CARROT);
         getOrCreateTagBuilder(ModFoodTags.POISON)//毒
                 .add(Items.SPIDER_EYE);
+        getOrCreateTagBuilder(ModFoodTags.BITTER)//苦
+                .add(ModItems.CHOCOLATE_BLACK.getId());
 
     }
 

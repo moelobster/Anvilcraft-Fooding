@@ -28,6 +28,7 @@ public class OnFinishEatingFood {
         foodTypeMap.put(ModFoodTags.POISON, new Poison());
         foodTypeMap.put(ModFoodTags.FRUIT, new Fruit());
         foodTypeMap.put(ModFoodTags.ACID, new Acid());
+        foodTypeMap.put(ModFoodTags.BITTER,new Bitter());
         return foodTypeMap;
     }
     public static void onFinishEating(ItemStack itemStack, Level level, LivingEntity livingEntity){

@@ -1,6 +1,6 @@
 package dev.anvilcraft.fooding.data.fabric;
 
-import dev.anvilcraft.fooding.block.features.ModTreeFeatures;
+import dev.anvilcraft.fooding.feature.features.ModTreeFeatures;
 import dev.anvilcraft.fooding.data.ModBlockTagProvider;
 import dev.anvilcraft.fooding.data.ModGenerator;
 import dev.anvilcraft.fooding.data.ModItemTagProvider;
