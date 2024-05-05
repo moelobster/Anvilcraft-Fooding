@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "redstone",
+  "group": "wooden_button",
+  "ingredients": [
+    {
+      "item": "anvilcraft_fooding:pea"
+    }
+  ],
+  "result": {
+    "item": "anvilcraft_fooding:pea_seed"
+  }
+}

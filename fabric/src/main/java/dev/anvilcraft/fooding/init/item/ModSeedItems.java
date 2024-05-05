@@ -22,9 +22,6 @@ public class ModSeedItems {
     public static final Item SPINACHSEED = registerItem("spinach_seed",(properties)->new ItemNameBlockItem(ModCropsBlocks.SPINACHCROP, defaultProperties()),defaultProperties());
     public static final Item CABBAGESEED = registerItem("cabbage_seed",(properties)->new ItemNameBlockItem(ModCropsBlocks.CABBAGECROP, defaultProperties()),defaultProperties());
     public static final Item CHINESECABBAGESEED = registerItem("chinese_cabbage_seed",(properties)->new ItemNameBlockItem(ModCropsBlocks.CHINESECABBAGECROP, defaultProperties()),defaultProperties());
-//    public static final Item EGGPLANTSEED = registerItem("eggplant_seed",(properties)->new ItemNameBlockItem(ModCropsBlocks.EGGPLANTCROP, defaultProperties()),defaultProperties());
-//    public static final Item CHILISEED = registerItem("chili_seed",(properties)->new ItemNameBlockItem(ModCropsBlocks.CHILICROP, defaultProperties()),defaultProperties());
-//    public static final Item TOMATOSEED = registerItem("tomato_seed",(properties)->new ItemNameBlockItem(ModCropsBlocks.TOMATOCROP, defaultProperties()),defaultProperties());
     public static final Item GENSINGSEED = registerItem("gensing_seed",(properties)->new ItemNameBlockItem(ModCropsBlocks.GENSINGCROP, defaultProperties()),defaultProperties());
     public static final Item AMERICANGENSINGSEED = registerItem("american_gensing_seed",(properties)->new ItemNameBlockItem(ModCropsBlocks.AMERICANGENSINGCROP, defaultProperties()),defaultProperties());
     public static final Item GOURDSEED = registerItem("gourd_seed",(properties)->new ItemNameBlockItem(ModCropsBlocks.GOURDCROP, defaultProperties()),defaultProperties());
