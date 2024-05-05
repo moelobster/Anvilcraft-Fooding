@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:red_mushroom",
+    "minecraft:brown_mushroom",
+    "anvilcraft:beef_mushroom_stew_raw",
+    "anvilcraft_fooding:green_mushroom",
+    "anvilcraft_fooding:mushroom",
+    "anvilcraft_fooding:black_fungus",
+    "anvilcraft_fooding:blue_mushroom",
+    "anvilcraft_fooding:tremella",
+    "anvilcraft_fooding:flammulina_enoki"
+  ]
+}

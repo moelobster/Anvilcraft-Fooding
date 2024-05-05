@@ -6,14 +6,13 @@ import net.minecraft.core.Registry;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemNameBlockItem;
-import net.minecraft.world.level.block.Blocks;
 import org.jetbrains.annotations.NotNull;
 
 import java.util.HashMap;
 import java.util.Map;
 import java.util.function.Function;
 
-public class ModSeeds {
+public class ModSeedItems {
 
     private static final Map<String, Item> ITEM_MAP = new HashMap<>();
 
@@ -29,8 +28,8 @@ public class ModSeeds {
     public static final Item GENSINGSEED = registerItem("gensing_seed",(properties)->new ItemNameBlockItem(ModCropsBlocks.GENSINGCROP, defaultProperties()),defaultProperties());
     public static final Item AMERICANGENSINGSEED = registerItem("american_gensing_seed",(properties)->new ItemNameBlockItem(ModCropsBlocks.AMERICANGENSINGCROP, defaultProperties()),defaultProperties());
     public static final Item GOURDSEED = registerItem("gourd_seed",(properties)->new ItemNameBlockItem(ModCropsBlocks.GOURDCROP, defaultProperties()),defaultProperties());
-    public static final Item SOYBEANSSEED = registerItem("soybean_seed",(properties)->new ItemNameBlockItem(ModCropsBlocks.SOYBEANSCROP, defaultProperties()),defaultProperties());
-    public static final Item FRENCHBEANSEED = registerItem("french_bean_seed",(properties)->new ItemNameBlockItem(ModCropsBlocks.FRENCHBEANCROP, defaultProperties()),defaultProperties());
+    public static final Item SOYBEANSSEED = registerItem("soybeans_seed",(properties)->new ItemNameBlockItem(ModCropsBlocks.SOYBEANSCROP, defaultProperties()),defaultProperties());
+    public static final Item FRENCHBEANSSEED = registerItem("french_beans_seed",(properties)->new ItemNameBlockItem(ModCropsBlocks.FRENCHBEANCROP, defaultProperties()),defaultProperties());
     public static final Item COWPEASEED = registerItem("cowpea_seed",(properties)->new ItemNameBlockItem(ModCropsBlocks.COWPEACROP, defaultProperties()),defaultProperties());
     public static final Item PEASEED = registerItem("pea_seed",(properties)->new ItemNameBlockItem(ModCropsBlocks.PEACROP, defaultProperties()),defaultProperties());
     public static final Item PEANUTSEED = registerItem("peanut_seed",(properties)->new ItemNameBlockItem(ModCropsBlocks.PEANUTCROP, defaultProperties()),defaultProperties());
@@ -59,7 +58,7 @@ public class ModSeeds {
     }
 
     public static void register() {
-        for (Map.Entry<String, Item> entry : ModSeeds.ITEM_MAP.entrySet()) {
+        for (Map.Entry<String, Item> entry : ModSeedItems.ITEM_MAP.entrySet()) {
             Registry.register(BuiltInRegistries.ITEM, AnvilCraftFoodingFabric.of(entry.getKey()), entry.getValue());
         }
     }

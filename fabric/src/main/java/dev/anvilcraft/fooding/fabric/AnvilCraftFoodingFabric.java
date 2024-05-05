@@ -6,7 +6,7 @@ import dev.anvilcraft.fooding.init.block.ModWoodBlocks;
 import dev.anvilcraft.fooding.init.food.*;
 import dev.anvilcraft.fooding.init.food.dish.HomeCookedDish;
 import dev.anvilcraft.fooding.init.food.dish.raw.HomeCookedDishRaw;
-import dev.anvilcraft.fooding.init.item.ModSeeds;
+import dev.anvilcraft.fooding.init.item.ModSeedItems;
 import dev.anvilcraft.fooding.init.item.ModWoodenItems;
 import dev.anvilcraft.fooding.init.others.ModItemGroups;
 import dev.anvilcraft.fooding.init.others.ModBlockItems;
@@ -33,7 +33,7 @@ public class AnvilCraftFoodingFabric implements ModInitializer {
         ModFruitItems.register();
         ModJamsItems.register();
         //item
-        ModSeeds.register();
+        ModSeedItems.register();
         ModWoodenItems.register();
         //other
         ModBlockItems.register();

@@ -4,6 +4,7 @@
   "package": "dev.anvilcraft.fooding.Mixin",
   "compatibilityLevel": "JAVA_17",
   "mixins": [
+    "ModComposterItem",
     "ModFoodItem"
   ],
   "client": [
