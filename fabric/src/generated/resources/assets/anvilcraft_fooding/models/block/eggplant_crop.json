@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/cross",
   "textures": {
-    "cross": "anvilcraft_fooding:block/eggplant"
+    "cross": "anvilcraft_fooding:block/eggplant_crop"
   }
 }
