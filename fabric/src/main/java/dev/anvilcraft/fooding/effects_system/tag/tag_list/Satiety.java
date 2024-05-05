@@ -1,6 +1,6 @@
-package dev.anvilcraft.fooding.events.effects;
+package dev.anvilcraft.fooding.effects_system.tag.tag_list;
 
-import dev.anvilcraft.fooding.events.tag.ModFoodTags;
+import dev.anvilcraft.fooding.effects_system.tag.ModFoodTags;
 import dev.anvilcraft.fooding.init.others.ModPlayerStatistics;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.server.level.ServerPlayer;
@@ -14,26 +14,26 @@ import org.jetbrains.annotations.NotNull;
 public class Satiety implements FoodType{
 
     @Override
-    public ResourceLocation getCunterResourceLocation() {
+    public ResourceLocation getCunter() {
         return ModPlayerStatistics.SATIETYCOUNTER;
     }
 
     @Override
-    public ResourceLocation getJudgeResourceLocation() {
+    public ResourceLocation getJudge() {
         return ModPlayerStatistics.SATIETYJUDGE;
     }
     @Override
     public void effect(@NotNull ItemStack itemStack,Level level, ServerPlayer serverPlayer){
         if (itemStack.is(ModFoodTags.SATIETY)){
             int l = 0;
-            int num=serverPlayer.getStats().getValue(Stats.CUSTOM,getCunterResourceLocation());
-            for (;num>=1;num=num/ FoodType.judgeNum){
+            int num=serverPlayer.getStats().getValue(Stats.CUSTOM, getCunter());
+            for (;num>=1;num=num/ judgeNum){
                 l=l+1;
             }
-            if (serverPlayer.getStats().getValue(Stats.CUSTOM,getJudgeResourceLocation())==1){
+            if (serverPlayer.getStats().getValue(Stats.CUSTOM, getJudge())==1){
                 serverPlayer.addEffect(new MobEffectInstance(MobEffects.SATURATION,10*l,1));
             }
-            if (serverPlayer.getStats().getValue(Stats.CUSTOM,getJudgeResourceLocation())==2){
+            if (serverPlayer.getStats().getValue(Stats.CUSTOM, getJudge())==2){
                 serverPlayer.addEffect(new MobEffectInstance(MobEffects.HUNGER,10*l,1));
                 serverPlayer.addEffect(new MobEffectInstance(MobEffects.MOVEMENT_SLOWDOWN,15*l,1));
                 serverPlayer.addEffect(new MobEffectInstance(MobEffects.CONFUSION,10*l,1));

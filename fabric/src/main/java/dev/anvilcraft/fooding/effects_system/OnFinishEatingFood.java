@@ -1,10 +1,10 @@
-package dev.anvilcraft.fooding.events;
+package dev.anvilcraft.fooding.effects_system;
 
 import java.util.HashMap;
 import java.util.Map;
 
-import dev.anvilcraft.fooding.events.effects.*;
-import dev.anvilcraft.fooding.events.tag.ModFoodTags;
+import dev.anvilcraft.fooding.effects_system.tag.ModFoodTags;
+import dev.anvilcraft.fooding.effects_system.tag.tag_list.*;
 import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.tags.TagKey;
 import net.minecraft.world.entity.LivingEntity;
@@ -29,6 +29,7 @@ public class OnFinishEatingFood {
         foodTypeMap.put(ModFoodTags.FRUIT, new Fruit());
         foodTypeMap.put(ModFoodTags.ACID, new Acid());
         foodTypeMap.put(ModFoodTags.BITTER,new Bitter());
+        foodTypeMap.put(ModFoodTags.MUSHROOM,new Mushroom());
         return foodTypeMap;
     }
     public static void onFinishEating(ItemStack itemStack, Level level, LivingEntity livingEntity){

@@ -1,6 +1,6 @@
 package dev.anvilcraft.fooding.Mixin;
 
-import dev.anvilcraft.fooding.events.OnFinishEatingFood;
+import dev.anvilcraft.fooding.effects_system.OnFinishEatingFood;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;

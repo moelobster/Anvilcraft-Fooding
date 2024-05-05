@@ -37,11 +37,11 @@ public class ModItemGroups {
                 entries.accept(ModVegetableItems.CHINESECABBAGE.getDefaultInstance());
                 entries.accept(ModSeeds.CHINESECABBAGESEED.getDefaultInstance());
                 entries.accept(ModVegetableItems.EGGPLANT.getDefaultInstance());
-                entries.accept(ModSeeds.EGGPLANTSEED.getDefaultInstance());
+//                entries.accept(ModSeeds.EGGPLANTSEED.getDefaultInstance());
                 entries.accept(ModVegetableItems.CHILI.getDefaultInstance());
-                entries.accept(ModSeeds.CHILISEED.getDefaultInstance());
+//                entries.accept(ModSeeds.CHILISEED.getDefaultInstance());
                 entries.accept(ModVegetableItems.TOMATO.getDefaultInstance());
-                entries.accept(ModSeeds.TOMATOSEED.getDefaultInstance());
+//                entries.accept(ModSeeds.TOMATOSEED.getDefaultInstance());
                 entries.accept(ModVegetableItems.GENSING.getDefaultInstance());
                 entries.accept(ModSeeds.GENSINGSEED.getDefaultInstance());
                 entries.accept(ModVegetableItems.AMERICANGENSING.getDefaultInstance());

@@ -1,6 +1,6 @@
-package dev.anvilcraft.fooding.events.effects;
+package dev.anvilcraft.fooding.effects_system.tag.tag_list;
 
-import dev.anvilcraft.fooding.events.tag.ModFoodTags;
+import dev.anvilcraft.fooding.effects_system.tag.ModFoodTags;
 import dev.anvilcraft.fooding.init.others.ModPlayerStatistics;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.server.level.ServerPlayer;
@@ -14,28 +14,28 @@ import org.jetbrains.annotations.NotNull;
 public class Sweet implements FoodType{
 
     @Override
-    public ResourceLocation getCunterResourceLocation() {
+    public ResourceLocation getCunter() {
         return ModPlayerStatistics.SWEETCOUNTER;
     }
 
     @Override
-    public ResourceLocation getJudgeResourceLocation() {
+    public ResourceLocation getJudge() {
         return ModPlayerStatistics.SWEETJUDGE;
     }
     @Override
     public void effect(@NotNull ItemStack itemStack,Level level, ServerPlayer serverPlayer){
         if (itemStack.is(ModFoodTags.SWEET)){
             int l = 0;
-            int num=serverPlayer.getStats().getValue(Stats.CUSTOM,getCunterResourceLocation());
-            for (;num>=1;num=num/ FoodType.judgeNum){
+            int num=serverPlayer.getStats().getValue(Stats.CUSTOM, getCunter());
+            for (;num>=1;num=num/ judgeNum){
                 l=l+1;
             }
-            if (serverPlayer.getStats().getValue(Stats.CUSTOM,getJudgeResourceLocation())==1){
+            if (serverPlayer.getStats().getValue(Stats.CUSTOM, getJudge())==1){
                 float currentHealth = serverPlayer.getHealth();
                 float newHealth = currentHealth + 1.0f*l;
                 serverPlayer.setHealth(newHealth);
             }
-            if (serverPlayer.getStats().getValue(Stats.CUSTOM,getJudgeResourceLocation())==2){
+            if (serverPlayer.getStats().getValue(Stats.CUSTOM, getJudge())==2){
                 serverPlayer.addEffect(new MobEffectInstance(MobEffects.HUNGER,5*l,1));
             }
         }

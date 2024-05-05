@@ -1,14 +1,14 @@
 package dev.anvilcraft.fooding.data;
 
 
-import dev.anvilcraft.fooding.events.tag.ModFoodTags;
+import dev.anvilcraft.fooding.effects_system.tag.ModFoodTags;
 import dev.anvilcraft.fooding.init.food.ModFruitItems;
 import dev.anvilcraft.fooding.init.food.ModJamsItems;
+import dev.anvilcraft.fooding.init.food.ModMushroomItems;
 import dev.anvilcraft.fooding.init.food.ModVegetableItems;
 import dev.anvilcraft.fooding.init.food.dish.HomeCookedDish;
 import dev.anvilcraft.fooding.init.others.ModBlockItems;
 import dev.dubhe.anvilcraft.init.ModItems;
-import dev.dubhe.anvilcraft.item.ModFoods;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricTagProvider;
 import net.minecraft.core.HolderLookup;
@@ -209,19 +209,30 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
                 .add(HomeCookedDish.DUMPLING);
         getOrCreateTagBuilder(ModFoodTags.FRUIT)//果味
                 .add(Items.GLOW_BERRIES)
+                .add(ModJamsItems.GLOWBERRIESJAM)
                 .add(Items.SWEET_BERRIES)
+                .add(ModJamsItems.SWEETBERRIESJAM)
                 .add(Items.MELON_SLICE)
                 .add(Items.APPLE)
+                .add(ModJamsItems.APPLEJAM)
                 .add(ModFruitItems.PEAR)
+                .add(ModJamsItems.PEARJAM)
                 .add(ModFruitItems.BANANA)
                 .add(ModFruitItems.BLUEBERRY)
+                .add(ModJamsItems.BLUEBERRYJAM)
                 .add(ModFruitItems.STRAWBERRY)
+                .add(ModJamsItems.STRAWBERRYJAM)
                 .add(ModFruitItems.PEACH)
+                .add(ModJamsItems.PEACHJAM)
                 .add(ModFruitItems.CARAMBOLA)
+                .add(ModJamsItems.CARAMBOLAJAM)
                 .add(ModFruitItems.CHERRY)
+                .add(ModJamsItems.CHERRYJAM)
                 .add(ModFruitItems.COCONUT)
                 .add(ModFruitItems.GRAPE)
-                .add(ModFruitItems.LEMON);
+                .add(ModJamsItems.GRAPEJAM)
+                .add(ModFruitItems.LEMON)
+                .add(ModJamsItems.LEMONJAM);
         getOrCreateTagBuilder(ModFoodTags.MEAT)//肉
                 .add(Items.RABBIT_STEW)
                 .add(Items.COOKED_BEEF)
@@ -238,6 +249,7 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
                 .add(Items.TROPICAL_FISH)
                 .add(Items.DRIED_KELP);
         getOrCreateTagBuilder(ModFoodTags.UNBELIEVABLE)//不可思议
+                .add(ModItems.BEEF_MUSHROOM_STEW_RAW.getId())
                 .add(Items.CHORUS_FRUIT)
                 .add(Items.GOLDEN_APPLE)
                 .add(Items.ENCHANTED_GOLDEN_APPLE);
@@ -246,10 +258,21 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
                 .add(Items.ENCHANTED_GOLDEN_APPLE)
                 .add(Items.GOLDEN_CARROT);
         getOrCreateTagBuilder(ModFoodTags.POISON)//毒
-                .add(Items.SPIDER_EYE);
+                .add(Items.SPIDER_EYE)
+                .add(ModItems.UTUSAN.getId());
         getOrCreateTagBuilder(ModFoodTags.BITTER)//苦
-                .add(ModItems.CHOCOLATE_BLACK.getId());
-
+                .add(ModItems.CHOCOLATE_BLACK.getId())
+                .add(ModItems.UTUSAN.getId());
+        getOrCreateTagBuilder(ModFoodTags.MUSHROOM)//菌类
+                .add(Items.RED_MUSHROOM)
+                .add(Items.BROWN_MUSHROOM)
+                .add(ModItems.BEEF_MUSHROOM_STEW_RAW.getId())
+                .add(ModMushroomItems.GREENMUSHROOM)
+                .add(ModMushroomItems.MUSHROOM)
+                .add(ModMushroomItems.BLACKFUNGUS)
+                .add(ModMushroomItems.BLUEMUSHROOM)
+                .add(ModMushroomItems.TREMELLA)
+                .add(ModMushroomItems.FLAMMULINAENOKI);
     }
 
 }

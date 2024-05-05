@@ -1,10 +1,13 @@
 package dev.anvilcraft.fooding.init.food;
 
 import dev.anvilcraft.fooding.fabric.AnvilCraftFoodingFabric;
+import dev.anvilcraft.fooding.init.block.ModCropsBlocks;
+import dev.anvilcraft.fooding.init.food.fooddata.FruitsData;
 import dev.anvilcraft.fooding.init.food.fooddata.VegetablesData;
 import net.minecraft.core.Registry;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.ItemNameBlockItem;
 import org.jetbrains.annotations.NotNull;
 
 import java.util.HashMap;
@@ -22,9 +25,9 @@ public class ModVegetableItems {
     public final static Item SPINACH = registerItem("spinach",Item::new,defaultProperties().food(VegetablesData.SPINACH));
     public final static Item CABBAGE = registerItem("cabbage",Item::new,defaultProperties().food(VegetablesData.CABBAGE));
     public final static Item CHINESECABBAGE = registerItem("chinese_cabbage",Item::new,defaultProperties().food(VegetablesData.CHINESECABBAGE));
-    public final static Item EGGPLANT = registerItem("eggplant",Item::new,defaultProperties().food(VegetablesData.EGGPLANT));
-    public final static Item CHILI = registerItem("chili",Item::new,defaultProperties().food(VegetablesData.CHILI));
-    public final static Item TOMATO = registerItem("tomato",Item::new,defaultProperties().food(VegetablesData.TOMATO));
+    public final static Item EGGPLANT = registerItem("eggplant",(properties)->new ItemNameBlockItem(ModCropsBlocks.EGGPLANTCROP, new Item.Properties().food(VegetablesData.EGGPLANT)),defaultProperties().food(VegetablesData.EGGPLANT));
+    public final static Item CHILI = registerItem("chili",(properties)->new ItemNameBlockItem(ModCropsBlocks.CHILICROP, new Item.Properties().food(VegetablesData.CHILI)),defaultProperties().food(VegetablesData.CHILI));
+    public final static Item TOMATO = registerItem("tomato",(properties)->new ItemNameBlockItem(ModCropsBlocks.TOMATOCROP, new Item.Properties().food(VegetablesData.TOMATO)),defaultProperties().food(VegetablesData.TOMATO));
     public final static Item GENSING = registerItem("gensing",Item::new,defaultProperties().food(VegetablesData.GENSING));
     public final static Item AMERICANGENSING = registerItem("american_gensing",Item::new,defaultProperties().food(VegetablesData.AMERICANGENSING));
     public final static Item GOURD = registerItem("gourd",Item::new,defaultProperties().food(VegetablesData.GOURD));
