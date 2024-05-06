@@ -4,7 +4,9 @@ import dev.anvilcraft.fooding.fabric.AnvilCraftFoodingFabric;
 import dev.anvilcraft.fooding.init.block.ModWoodBlocks;
 import dev.anvilcraft.fooding.init.food.*;
 import dev.anvilcraft.fooding.init.food.dish.HomeCookedDish;
+import dev.anvilcraft.fooding.init.food.dish.MystiasIzakaya;
 import dev.anvilcraft.fooding.init.food.dish.raw.HomeCookedDishRaw;
+import dev.anvilcraft.fooding.init.food.dish.raw.MystiasIzakayaRaw;
 import dev.anvilcraft.fooding.init.item.ModSeedItems;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.minecraft.core.Registry;
@@ -37,15 +39,12 @@ public class ModItemGroups {
                 entries.accept(ModVegetableItems.CHINESECABBAGE.getDefaultInstance());
                 entries.accept(ModSeedItems.CHINESECABBAGESEED.getDefaultInstance());
                 entries.accept(ModVegetableItems.EGGPLANT.getDefaultInstance());
-//                entries.accept(ModSeeds.EGGPLANTSEED.getDefaultInstance());
                 entries.accept(ModVegetableItems.CHILI.getDefaultInstance());
-//                entries.accept(ModSeeds.CHILISEED.getDefaultInstance());
                 entries.accept(ModVegetableItems.TOMATO.getDefaultInstance());
-//                entries.accept(ModSeeds.TOMATOSEED.getDefaultInstance());
-                entries.accept(ModVegetableItems.GENSING.getDefaultInstance());
-                entries.accept(ModSeedItems.GENSINGSEED.getDefaultInstance());
-                entries.accept(ModVegetableItems.AMERICANGENSING.getDefaultInstance());
-                entries.accept(ModSeedItems.AMERICANGENSINGSEED.getDefaultInstance());
+//                entries.accept(ModVegetableItems.GENSING.getDefaultInstance());
+//                entries.accept(ModSeedItems.GENSINGSEED.getDefaultInstance());
+//                entries.accept(ModVegetableItems.AMERICANGENSING.getDefaultInstance());
+//                entries.accept(ModSeedItems.AMERICANGENSINGSEED.getDefaultInstance());
                 entries.accept(ModVegetableItems.GOURD.getDefaultInstance());
                 entries.accept(ModSeedItems.GOURDSEED.getDefaultInstance());
                 entries.accept(ModVegetableItems.SOYBEANS.getDefaultInstance());
@@ -64,6 +63,7 @@ public class ModItemGroups {
                 entries.accept(ModMushroomItems.BLACKFUNGUS.getDefaultInstance());
                 entries.accept(ModMushroomItems.MUSHROOM.getDefaultInstance());
                 entries.accept(ModMushroomItems.FLAMMULINAENOKI.getDefaultInstance());
+                entries.accept(ModMushroomItems.TRUFFLE.getDefaultInstance());
             });
     public static final CreativeModeTab.Builder ANVILCRAFT_FOODING_FRUIT = createItemGroup("fruit",FabricItemGroup::builder)
             .icon(()-> new ItemStack(ModFruitItems.PEAR))
@@ -239,13 +239,41 @@ public class ModItemGroups {
                 entries.accept(ModBlockItems.CARAMBOLASAPLING.getDefaultInstance());
                 entries.accept(ModBlockItems.TOONSAPLING.getDefaultInstance());
             });
+    public static final CreativeModeTab.Builder RAW_MATERIAL = createItemGroup("raw_material",FabricItemGroup::builder)
+            .icon(()->new ItemStack(ModCondiments.BUTTER))
+            .displayItems((ctx,entries)->{
+               entries.accept(ModCondiments.BUTTER.getDefaultInstance());
+               entries.accept(ModCondiments.VEGETABLEOIL.getDefaultInstance());
+               entries.accept(ModCondiments.LARD.getDefaultInstance());
+               entries.accept(ModCondiments.SOYSAUCE.getDefaultInstance());
+               entries.accept(ModRawMaterials.CHICKENSTUFFING.getDefaultInstance());
+               entries.accept(ModRawMaterials.PORKSTUFFING.getDefaultInstance());
+               entries.accept(ModRawMaterials.BEEFSTUFFING.getDefaultInstance());
+               entries.accept(ModRawMaterials.MUTTONSTUFFING.getDefaultInstance());
+               entries.accept(ModRawMaterials.FLATDOUGH.getDefaultInstance());
+            });
     public static final CreativeModeTab.Builder ANVILCRAFT_FOODING_HOMECOOKEDDISH = createItemGroup("home_cooked_dish",FabricItemGroup::builder)
-        .icon(()->new ItemStack(HomeCookedDish.DUMPLING))
-        .displayItems((ctx,entries)->{
-            entries.accept(HomeCookedDish.DUMPLING.getDefaultInstance());
-            entries.accept(HomeCookedDishRaw.DUMPLINGRAW.getDefaultInstance());
-        });
+            .icon(()->new ItemStack(HomeCookedDish.DUMPLING))
+            .displayItems((ctx,entries)->{
+                entries.accept(HomeCookedDish.FRIEDDUMPLING.getDefaultInstance());
+                entries.accept(HomeCookedDish.DUMPLING.getDefaultInstance());
+                entries.accept(HomeCookedDish.SOUPDUMPLING.getDefaultInstance());
+                entries.accept(HomeCookedDishRaw.DUMPLINGRAW.getDefaultInstance());
+                entries.accept(HomeCookedDish.YANGCHUNNOODLES.getDefaultInstance());
+                entries.accept(HomeCookedDish.BEEFNOODLES.getDefaultInstance());
+                entries.accept(HomeCookedDishRaw.NOODLESRAW.getDefaultInstance());
+                entries.accept(HomeCookedDish.RAVIOLI.getDefaultInstance());
+                entries.accept(HomeCookedDishRaw.RAVIOLIRAW.getDefaultInstance());
+                entries.accept(HomeCookedDish.RAWDOUGHPANFRIEDBUN.getDefaultInstance());
+                entries.accept(HomeCookedDishRaw.RAWDOUGHPANFRIEDBUNRAW.getDefaultInstance());
 
+            });
+    public static final CreativeModeTab.Builder ANVILCRAFT_FOODING_MYSTIASIZAKAYA = createItemGroup("mystiasizakaya",FabricItemGroup::builder)
+            .icon(()->new ItemStack(MystiasIzakaya.RAINBOWPANFRIEDPORKBUNS))
+            .displayItems((ctx,entries)->{
+                entries.accept(MystiasIzakaya.RAINBOWPANFRIEDPORKBUNS);
+                entries.accept(MystiasIzakayaRaw.RAINBOWPANFRIEDPORKBUNSRAW);
+            });
 
 
     private static CreativeModeTab.@NotNull Builder createItemGroup(String id, @NotNull Supplier<CreativeModeTab.Builder> itemGroupBuilder) {

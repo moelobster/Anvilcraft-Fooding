@@ -20,7 +20,7 @@ public final class ModFoodTags {
     public static final TagKey<Item> POISON = ModFoodTags.bind("poison_tag");
     public static final TagKey<Item> BITTER = ModFoodTags.bind("bitter_tag");
     public static final TagKey<Item> MUSHROOM = ModFoodTags.bind("mushroom_tag");
-
+    public static final TagKey<Item> OIL = ModFoodTags.bind("oil_tag");
 
 
     private static @NotNull TagKey<Item> bind(String id) {

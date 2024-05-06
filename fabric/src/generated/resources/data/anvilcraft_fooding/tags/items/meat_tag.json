@@ -8,6 +8,12 @@
     "minecraft:cooked_porkchop",
     "minecraft:cooked_rabbit",
     "anvilcraft:beef_mushroom_stew_raw",
-    "anvilcraft_fooding:dumpling"
+    "anvilcraft_fooding:dumpling",
+    "anvilcraft_fooding:rainbow_pan_fried_pork_buns",
+    "anvilcraft_fooding:fried_dumpling",
+    "anvilcraft_fooding:beef_noodles",
+    "anvilcraft_fooding:ravioli",
+    "anvilcraft_fooding:soup_dumpling",
+    "anvilcraft_fooding:raw_dough_pan_fried_bun"
   ]
 }

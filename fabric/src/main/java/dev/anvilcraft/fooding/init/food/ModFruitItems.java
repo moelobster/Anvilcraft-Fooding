@@ -25,10 +25,6 @@ public class ModFruitItems {
     public final static Item PEACH = registerItem("peach",Item::new,defaultProperties().food(FruitsData.PEACH));
     public final static Item COCONUT = registerItem("coconut",Item::new,defaultProperties().food(FruitsData.COCONUT));
     public final static Item CARAMBOLA = registerItem("carambola",Item::new,defaultProperties().food(FruitsData.CARAMBOLA));
-
-//    public final static Item STRAWBERRY = registerItem("strawberry",Item::new,defaultProperties().food(lobster.moe.anvilcook.item.ModFruit.STRAWBERRY));
-//
-//    public final static Item BLUEBERRY = registerItem("blueberry",Item::new,defaultProperties().food(lobster.moe.anvilcook.item.ModFruit.BLUEBERRY));
     public final static Item STRAWBERRY = registerItem("strawberry",(properties)->new ItemNameBlockItem(ModCropsBlocks.STRAWBERYCROP, new Item.Properties().food(FruitsData.STRAWBERRY)),defaultProperties().food(FruitsData.STRAWBERRY));
     public final static Item BLUEBERRY = registerItem("blueberry",(properties)->new ItemNameBlockItem(ModCropsBlocks.BLUEBERYCROP, new Item.Properties().food(FruitsData.BLUEBERRY)),defaultProperties().food(FruitsData.BLUEBERRY));
     public final static Item TOON = registerItem("toon",Item::new,defaultProperties().food(FruitsData.TOON));

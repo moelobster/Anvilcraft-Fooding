@@ -10,13 +10,11 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.function.Function;
 
-public class HomeCookedDishRaw {
+public class MystiasIzakayaRaw {
     private static final Map<String, Item> ITEM_MAP = new HashMap<>();
 
-    public static final Item DUMPLINGRAW = registerItem("dumpling_raw",Item::new,defaultProperties());
-    public static final Item NOODLESRAW = registerItem("noodles_raw",Item::new,defaultProperties());
-    public static final Item RAVIOLIRAW = registerItem("ravioli_raw",Item::new,defaultProperties());
-    public static final Item RAWDOUGHPANFRIEDBUNRAW = registerItem("raw_dough_pan_fried_bun_raw",Item::new,defaultProperties());
+    public static final Item RAINBOWPANFRIEDPORKBUNSRAW = registerItem("rainbow_pan_fried_pork_buns_raw",Item::new,defaultProperties());
+
 
 
     private static Item registerItem(String id, @NotNull Function<Item.Properties, Item> itemCreator, Item.Properties properties) {
@@ -29,7 +27,7 @@ public class HomeCookedDishRaw {
     }
 
     public static void register() {
-        for (Map.Entry<String, Item> entry : HomeCookedDishRaw.ITEM_MAP.entrySet()) {
+        for (Map.Entry<String, Item> entry : MystiasIzakayaRaw.ITEM_MAP.entrySet()) {
             Registry.register(BuiltInRegistries.ITEM, AnvilCraftFoodingFabric.of(entry.getKey()), entry.getValue());
         }
     }

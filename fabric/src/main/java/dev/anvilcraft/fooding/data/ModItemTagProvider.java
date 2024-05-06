@@ -7,6 +7,7 @@ import dev.anvilcraft.fooding.init.food.ModJamsItems;
 import dev.anvilcraft.fooding.init.food.ModMushroomItems;
 import dev.anvilcraft.fooding.init.food.ModVegetableItems;
 import dev.anvilcraft.fooding.init.food.dish.HomeCookedDish;
+import dev.anvilcraft.fooding.init.food.dish.MystiasIzakaya;
 import dev.anvilcraft.fooding.init.others.ModBlockItems;
 import dev.dubhe.anvilcraft.init.ModItems;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
@@ -206,7 +207,9 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
                 .add(Items.BAKED_POTATO)
                 .add(Items.BREAD)
                 .add(ModItems.CREAMY_BREAD_ROLL.getId())
-                .add(HomeCookedDish.DUMPLING);
+                .add(HomeCookedDish.YANGCHUNNOODLES)
+                .add(HomeCookedDish.BEEFNOODLES)
+                .add(HomeCookedDish.SOUPDUMPLING);
         getOrCreateTagBuilder(ModFoodTags.FRUIT)//果味
                 .add(Items.GLOW_BERRIES)
                 .add(ModJamsItems.GLOWBERRIESJAM)
@@ -241,7 +244,13 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
                 .add(Items.COOKED_PORKCHOP)
                 .add(Items.COOKED_RABBIT)
                 .add(ModItems.BEEF_MUSHROOM_STEW_RAW.getId())
-                .add(HomeCookedDish.DUMPLING);
+                .add(HomeCookedDish.DUMPLING)
+                .add(MystiasIzakaya.RAINBOWPANFRIEDPORKBUNS)
+                .add(HomeCookedDish.FRIEDDUMPLING)
+                .add(HomeCookedDish.BEEFNOODLES)
+                .add(HomeCookedDish.RAVIOLI)
+                .add(HomeCookedDish.SOUPDUMPLING)
+                .add(HomeCookedDish.RAWDOUGHPANFRIEDBUN);
         getOrCreateTagBuilder(ModFoodTags.SEAFOOD)//海味
                 .add(Items.COOKED_COD)
                 .add(Items.COOKED_SALMON)
@@ -256,7 +265,8 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
         getOrCreateTagBuilder(ModFoodTags.LUXURIOUS)//华贵
                 .add(Items.GOLDEN_APPLE)
                 .add(Items.ENCHANTED_GOLDEN_APPLE)
-                .add(Items.GOLDEN_CARROT);
+                .add(Items.GOLDEN_CARROT)
+                .add(MystiasIzakaya.RAINBOWPANFRIEDPORKBUNS);
         getOrCreateTagBuilder(ModFoodTags.POISON)//毒
                 .add(Items.SPIDER_EYE)
                 .add(ModItems.UTUSAN.getId());
@@ -272,7 +282,11 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
                 .add(ModMushroomItems.BLACKFUNGUS)
                 .add(ModMushroomItems.BLUEMUSHROOM)
                 .add(ModMushroomItems.TREMELLA)
-                .add(ModMushroomItems.FLAMMULINAENOKI);
+                .add(ModMushroomItems.FLAMMULINAENOKI)
+                .add(MystiasIzakaya.RAINBOWPANFRIEDPORKBUNS);
+        getOrCreateTagBuilder(ModFoodTags.OIL)//油
+                .add(HomeCookedDish.FRIEDDUMPLING)
+                .add(HomeCookedDish.RAWDOUGHPANFRIEDBUN);
     }
 
 }

@@ -64,6 +64,9 @@ public class ModPlayerStatistics {
     public static final ResourceLocation MUSHROOMJUDGE = makeCustomStat("mushroom_judge",StatFormatter.DEFAULT);
 
 
+    public static final ResourceLocation OILCOUNTER = makeCustomStat("oil_counter",StatFormatter.DEFAULT);
+    public static final ResourceLocation OILJUDGE = makeCustomStat("oil_judge",StatFormatter.DEFAULT);
+
 
 
     private static ResourceLocation makeCustomStat(String id, StatFormatter statFormatter) {

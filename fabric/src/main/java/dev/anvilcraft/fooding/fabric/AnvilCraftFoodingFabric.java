@@ -6,7 +6,9 @@ import dev.anvilcraft.fooding.init.block.ModWoodBlocks;
 import dev.anvilcraft.fooding.init.food.*;
 import dev.anvilcraft.fooding.init.food.coloregg.XeKr;
 import dev.anvilcraft.fooding.init.food.dish.HomeCookedDish;
+import dev.anvilcraft.fooding.init.food.dish.MystiasIzakaya;
 import dev.anvilcraft.fooding.init.food.dish.raw.HomeCookedDishRaw;
+import dev.anvilcraft.fooding.init.food.dish.raw.MystiasIzakayaRaw;
 import dev.anvilcraft.fooding.init.item.ModSeedItems;
 import dev.anvilcraft.fooding.init.item.ModWoodenItems;
 import dev.anvilcraft.fooding.init.others.ModItemGroups;
@@ -26,13 +28,18 @@ public class AnvilCraftFoodingFabric implements ModInitializer {
         ModTreesBlocks.register();
         ModWoodBlocks.register();
         //food
-        HomeCookedDish.register();
-        HomeCookedDishRaw.register();
         ModMushroomItems.register();
         ModCerealsItems.register();
         ModVegetableItems.register();
         ModFruitItems.register();
         ModJamsItems.register();
+        ModCondiments.register();
+        ModRawMaterials.register();
+        //dish
+        HomeCookedDish.register();
+        HomeCookedDishRaw.register();
+        MystiasIzakayaRaw.register();
+        MystiasIzakaya.register();
         //item
         ModSeedItems.register();
         ModWoodenItems.register();

@@ -2,28 +2,43 @@
   "itemGroup.anvilcraft_fooding.vegetable": "铁砧食艺 - 蔬菜",
   "item.anvilcraft_fooding.toon_leaf": "香椿叶",
   "item.anvilcraft_fooding.houttuynia_cordata": "鱼腥草",
+  "item.anvilcraft_fooding.houttuynia_cordata_seed": "鱼腥草种子",
   "item.anvilcraft_fooding.coriander": "香菜",
+  "item.anvilcraft_fooding.coriander_seed": "香菜种子",
   "item.anvilcraft_fooding.celery": "芹菜",
+  "item.anvilcraft_fooding.celery_seed": "芹菜种子",
   "item.anvilcraft_fooding.spinach": "菠菜",
+  "item.anvilcraft_fooding.spinach_seed": "菠菜种子",
   "item.anvilcraft_fooding.cabbage": "卷心菜",
+  "item.anvilcraft_fooding.cabbage_seed": "卷心菜种子",
   "item.anvilcraft_fooding.chinese_cabbage": "白菜",
+  "item.anvilcraft_fooding.chinese_cabbage_seed": "白菜种子",
   "item.anvilcraft_fooding.eggplant": "茄子",
   "item.anvilcraft_fooding.chili": "辣椒",
   "item.anvilcraft_fooding.gensing": "人参",
+  "item.anvilcraft_fooding.gensing_seed": "人参种子",
   "item.anvilcraft_fooding.american_gensing": "西洋参",
+  "item.anvilcraft_fooding.american_gensing_seed": "西洋参种子",
   "item.anvilcraft_fooding.tomato": "番茄",
   "item.anvilcraft_fooding.gourd": "葫芦",
+  "item.anvilcraft_fooding.gourd_seed": "葫芦种子",
   "item.anvilcraft_fooding.soybeans": "大豆",
+  "item.anvilcraft_fooding.soybeans_seed": "大豆种子",
   "item.anvilcraft_fooding.french_beans": "四季豆",
+  "item.anvilcraft_fooding.french_beans_seed": "四季豆种子",
   "item.anvilcraft_fooding.cowpea": "豇豆",
+  "item.anvilcraft_fooding.cowpea_seed": "豇豆种子",
   "item.anvilcraft_fooding.pea": "豌豆",
+  "item.anvilcraft_fooding.pea_seed": "豌豆种子",
   "item.anvilcraft_fooding.peanut": "花生",
+  "item.anvilcraft_fooding.peanut_seed": "花生种子",
   "item.anvilcraft_fooding.green_mushroom": "绿蘑菇",
   "item.anvilcraft_fooding.blue_mushroom": "蓝蘑菇",
   "item.anvilcraft_fooding.tremella": "银耳",
   "item.anvilcraft_fooding.black_fungus": "黑木耳",
   "item.anvilcraft_fooding.mushroom": "香菇",
   "item.anvilcraft_fooding.flammulina_enoki": "金针菇",
+  "item.anvilcraft_fooding.truffle": "松露",
 
 
   "itemGroup.anvilcraft_fooding.fruit": "铁砧食艺 - 水果",
@@ -188,6 +203,44 @@
 
 
 
+  "itemGroup.anvilcraft_fooding.home_cooked_dish": "铁砧食艺 - 家常菜",
+  "item.anvilcraft_fooding.fried_dumpling": "煎饺",
+  "item.anvilcraft_fooding.dumpling": "蒸饺",
+  "item.anvilcraft_fooding.soup_dumpling": "汤饺",
+  "item.anvilcraft_fooding.dumpling_raw": "生水饺",
+  "item.anvilcraft_fooding.yangchun_noodles": "阳春面",
+  "item.anvilcraft_fooding.beef_noodles": "牛肉面",
+  "item.anvilcraft_fooding.noodles_raw": "生面条",
+  "item.anvilcraft_fooding.ravioli": "馄饨",
+  "item.anvilcraft_fooding.ravioli_raw": "生馄饨",
+  "item.anvilcraft_fooding.raw_dough_pan_fried_bun": "生煎包",
+  "item.anvilcraft_fooding.raw_dough_pan_fried_bun_raw": "生的生煎包",
+
+
+
+
+  "itemGroup.anvilcraft_fooding.mystiasizakaya": "铁砧食艺 - 东方夜雀食堂",
+  "item.anvilcraft_fooding.rainbow_pan_fried_pork_buns": "华光玉煎包",
+  "item.anvilcraft_fooding.rainbow_pan_fried_pork_buns_raw": "生的华光玉煎包",
+
+
+
+
+
+  "itemGroup.anvilcraft_fooding.raw_material": "铁砧食艺 - 材料",
+  "item.anvilcraft_fooding.butter": "黄油",
+  "item.anvilcraft_fooding.vegetable_oil": "植物油",
+  "item.anvilcraft_fooding.lard": "猪油",
+  "item.anvilcraft_fooding.soy_sauce": "酱油",
+  "item.anvilcraft_fooding.chicken_stuffing": "鸡肉馅",
+  "item.anvilcraft_fooding.pork_stuffing": "猪肉馅",
+  "item.anvilcraft_fooding.beef_stuffing": "牛肉馅",
+  "item.anvilcraft_fooding.mutton_stuffing": "羊肉馅",
+  "item.anvilcraft_fooding.flat_dough": "面皮",
+
+
+
+
   "stat.anvilcraft_fooding.sweet_counter": "tag甜食用次数",
   "stat.anvilcraft_fooding.acid_counter": "tag酸食用次数",
   "stat.anvilcraft_fooding.hot_counter": "tag辣食用次数",
@@ -199,6 +252,8 @@
   "stat.anvilcraft_fooding.unbelievable_counter": "tag不可思议食用次数",
   "stat.anvilcraft_fooding.luxurious_counter": "tag奢华食用次数",
   "stat.anvilcraft_fooding.poison_counter": "tag毒食用次数",
+  "stat.anvilcraft_fooding.bitter_counter": "tag苦食用次数",
+  "stat.anvilcraft_fooding.mushroom_counter": "tag菌类食用次数",
 
 
 

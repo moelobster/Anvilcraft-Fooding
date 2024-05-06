@@ -1,6 +1,7 @@
-package dev.anvilcraft.fooding.init.food.dish.raw;
+package dev.anvilcraft.fooding.init.food.dish;
 
 import dev.anvilcraft.fooding.fabric.AnvilCraftFoodingFabric;
+import dev.anvilcraft.fooding.init.food.fooddata.dish.MystiasIzakayaData;
 import net.minecraft.core.Registry;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.world.item.Item;
@@ -10,13 +11,11 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.function.Function;
 
-public class HomeCookedDishRaw {
+public class MystiasIzakaya {
     private static final Map<String, Item> ITEM_MAP = new HashMap<>();
 
-    public static final Item DUMPLINGRAW = registerItem("dumpling_raw",Item::new,defaultProperties());
-    public static final Item NOODLESRAW = registerItem("noodles_raw",Item::new,defaultProperties());
-    public static final Item RAVIOLIRAW = registerItem("ravioli_raw",Item::new,defaultProperties());
-    public static final Item RAWDOUGHPANFRIEDBUNRAW = registerItem("raw_dough_pan_fried_bun_raw",Item::new,defaultProperties());
+
+    public static final Item RAINBOWPANFRIEDPORKBUNS = registerItem("rainbow_pan_fried_pork_buns",Item::new,defaultProperties().food(MystiasIzakayaData.RAINBOWPANFRIEDPORKBUNS));
 
 
     private static Item registerItem(String id, @NotNull Function<Item.Properties, Item> itemCreator, Item.Properties properties) {
@@ -29,7 +28,7 @@ public class HomeCookedDishRaw {
     }
 
     public static void register() {
-        for (Map.Entry<String, Item> entry : HomeCookedDishRaw.ITEM_MAP.entrySet()) {
+        for (Map.Entry<String, Item> entry : MystiasIzakaya.ITEM_MAP.entrySet()) {
             Registry.register(BuiltInRegistries.ITEM, AnvilCraftFoodingFabric.of(entry.getKey()), entry.getValue());
         }
     }

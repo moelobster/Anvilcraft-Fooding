@@ -19,6 +19,7 @@ public class ModMushroomItems {
     public static final Item BLACKFUNGUS = registerItem("black_fungus",Item::new,defaultProperties());
     public static final Item MUSHROOM = registerItem("mushroom",Item::new,defaultProperties());
     public static final Item FLAMMULINAENOKI = registerItem("flammulina_enoki",Item::new,defaultProperties());
+    public static final Item TRUFFLE = registerItem("truffle",Item::new,defaultProperties());
 
 
 

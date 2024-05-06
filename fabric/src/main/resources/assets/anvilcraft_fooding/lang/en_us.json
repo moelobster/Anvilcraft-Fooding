@@ -2,28 +2,43 @@
     "itemGroup.anvilcraft_fooding.vegetable": "Vegetable",
     "item.anvilcraft_fooding.toon_leaf": "Toon Leaves",
     "item.anvilcraft_fooding.houttuynia_cordata": "Houttuynia cordata",
+    "item.anvilcraft_fooding.houttuynia_cordata_seed": "Houttuynia cordata seed",
     "item.anvilcraft_fooding.coriander": "Coriander",
+    "item.anvilcraft_fooding.coriander_seed": "Coriander seed",
     "item.anvilcraft_fooding.celery": "Celery",
+    "item.anvilcraft_fooding.celery_seed": "Celery seed",
     "item.anvilcraft_fooding.spinach": "Spinach",
+    "item.anvilcraft_fooding.spinach_seed": "Spinach seed",
     "item.anvilcraft_fooding.cabbage": "Cabbage",
+    "item.anvilcraft_fooding.cabbage_seed": "Cabbage seed",
     "item.anvilcraft_fooding.chinese_cabbage": "Chinese cabbage",
+    "item.anvilcraft_fooding.chinese_cabbage_seed": "Chinese cabbage seed",
     "item.anvilcraft_fooding.eggplant": "Eggplant",
     "item.anvilcraft_fooding.chili": "Chili",
     "item.anvilcraft_fooding.gensing": "Gensing",
+    "item.anvilcraft_fooding.gensing_seed": "Gensing seed",
     "item.anvilcraft_fooding.american_gensing": "American gensing",
+    "item.anvilcraft_fooding.american_gensing_seed": "American gensing seed",
     "item.anvilcraft_fooding.tomato": "Tomato",
     "item.anvilcraft_fooding.gourd": "Gourd",
+    "item.anvilcraft_fooding.gourd_seed": "Gourd seed",
     "item.anvilcraft_fooding.soybeans": "Soybeans",
+    "item.anvilcraft_fooding.soybeans_seed": "Soybeans seed",
     "item.anvilcraft_fooding.french_beans": "French beans",
+    "item.anvilcraft_fooding.french_beans_seed": "French beans seed",
     "item.anvilcraft_fooding.cowpea": "Cowpea",
+    "item.anvilcraft_fooding.cowpea_seed": "Cowpea seed",
     "item.anvilcraft_fooding.pea": "Pea",
+    "item.anvilcraft_fooding.pea_seed": "Pea seed",
     "item.anvilcraft_fooding.peanut": "Peanut",
+    "item.anvilcraft_fooding.peanut_seed": "Peanut seed",
     "item.anvilcraft_fooding.green_mushroom": "Green mushroom",
     "item.anvilcraft_fooding.blue_mushroom": "Blue mushroom",
     "item.anvilcraft_fooding.tremella": "Tremella",
     "item.anvilcraft_fooding.black_fungus": "Black fungus",
     "item.anvilcraft_fooding.mushroom": "Mushroom",
     "item.anvilcraft_fooding.flammulina_enoki": "Flammulina enoki",
+    "item.anvilcraft_fooding.truffle": "Matsutake",
 
 
     "itemGroup.anvilcraft_fooding.fruit": "Fruit",
@@ -186,6 +201,41 @@
     "block.anvilcraft_fooding.toon_sapling": "Toon sapling",
 
 
+    "itemGroup.anvilcraft_fooding.home_cooked_dish": "Home-cooked Dish",
+    "item.anvilcraft_fooding.fried_dumpling": "Fried dumpling",
+    "item.anvilcraft_fooding.dumpling": "Dumpling",
+    "item.anvilcraft_fooding.soup_dumpling": "Soup dumpling",
+    "item.anvilcraft_fooding.dumpling_raw": "Dumpling raw",
+    "item.anvilcraft_fooding.yangchun_noodles": "Yangchun Noodles",
+    "item.anvilcraft_fooding.beef_noodles": "Beef Noodles",
+    "item.anvilcraft_fooding.noodles_raw": "Noodles raw",
+    "item.anvilcraft_fooding.ravioli": "Ravioli",
+    "item.anvilcraft_fooding.ravioli_raw": "Ravioli raw",
+    "item.anvilcraft_fooding.raw_dough_pan_fried_bun": "Pan-fried bun",
+    "item.anvilcraft_fooding.raw_dough_pan_fried_bun_raw": "Pan-fried bun raw",
+
+
+
+
+    "itemGroup.anvilcraft_fooding.mystiasizakaya": "Mystia's Izakaya",
+    "item.anvilcraft_fooding.rainbow_pan_fried_pork_buns": "Rainbow Pan-fried Pork Buns",
+    "item.anvilcraft_fooding.rainbow_pan_fried_pork_buns_raw": "Rainbow Pan-fried Pork Buns raw",
+
+
+
+
+    "itemGroup.anvilcraft_fooding.raw_material": "Raw-material",
+    "item.anvilcraft_fooding.butter": "Butter",
+    "item.anvilcraft_fooding.vegetable_oil": "Vegetable Oil",
+    "item.anvilcraft_fooding.lard": "Lard",
+    "item.anvilcraft_fooding.soy_sauce": "Soy Sauce",
+    "item.anvilcraft_fooding.chicken_stuffing": "Chicken-stuffing",
+    "item.anvilcraft_fooding.pork_stuffing": "Pork-stuffing",
+    "item.anvilcraft_fooding.beef_stuffing": "Beef-stuffing",
+    "item.anvilcraft_fooding.mutton_stuffing": "Mutton-stuffing",
+    "item.anvilcraft_fooding.flat_dough": "Flat Dough",
+
+
 
 
     "stat.anvilcraft_fooding.sweet_counter": "Tags of Sweet had ate",
@@ -199,6 +249,8 @@
     "stat.anvilcraft_fooding.unbelievable_counter": "Tags of Unbelievable had ate",
     "stat.anvilcraft_fooding.luxurious_counter": "Tags of Luxurious had ate",
     "stat.anvilcraft_fooding.poison_counter": "Tags of Poison had ate",
+    "stat.anvilcraft_fooding.bitter_counter": "Tags of Bitter had ate",
+    "stat.anvilcraft_fooding.mushroom_counter": "Tags of Mushroom had ate",
 
 
 
