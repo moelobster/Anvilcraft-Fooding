@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:block/fence_side",
-  "textures": {
-    "texture": "anvilcraft_fooding:block/pear_planks"
-  }
-}

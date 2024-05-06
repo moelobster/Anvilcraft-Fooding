@@ -1,7 +1,0 @@
-{
-  "parent": "minecraft:block/cube_column",
-  "textures": {
-    "end": "anvilcraft_fooding:block/peach_log_top",
-    "side": "anvilcraft_fooding:block/peach_log"
-  }
-}

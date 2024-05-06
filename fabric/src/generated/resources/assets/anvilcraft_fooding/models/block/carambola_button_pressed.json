@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:block/button_pressed",
-  "textures": {
-    "texture": "anvilcraft_fooding:block/carambola_planks"
-  }
-}

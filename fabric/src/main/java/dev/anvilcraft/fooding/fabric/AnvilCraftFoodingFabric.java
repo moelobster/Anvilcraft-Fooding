@@ -4,6 +4,7 @@ import dev.anvilcraft.fooding.init.block.ModCropsBlocks;
 import dev.anvilcraft.fooding.init.block.ModTreesBlocks;
 import dev.anvilcraft.fooding.init.block.ModWoodBlocks;
 import dev.anvilcraft.fooding.init.food.*;
+import dev.anvilcraft.fooding.init.food.coloregg.XeKr;
 import dev.anvilcraft.fooding.init.food.dish.HomeCookedDish;
 import dev.anvilcraft.fooding.init.food.dish.raw.HomeCookedDishRaw;
 import dev.anvilcraft.fooding.init.item.ModSeedItems;
@@ -39,6 +40,10 @@ public class AnvilCraftFoodingFabric implements ModInitializer {
         ModBlockItems.register();
         ModItemGroups.register();
         ModPlayerStatistics.register();
+
+
+        //egg
+        XeKr.register();
     }
     public static @NotNull ResourceLocation of(String id) {
         return new ResourceLocation(MOD_ID, id);
